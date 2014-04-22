@@ -1,0 +1,78 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="">
+    <title>method. Получение метода объекта</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:Arial; font-size:12pt; color:#000000"><b>method. Получение метода объекта</b><b>&nbsp;&nbsp;&nbsp;</b><span style="font-family:Arial; font-size:10pt; color:#000000"><b><i>[3.4.2]</i></b></span><span style="font-family:Arial; font-size:12pt; color:#000000"><b>
+<br>
+</b></span></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^reflection:method[объект;имя&nbsp;метода]</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^reflection:method[класс;имя&nbsp;метода]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+Возвращает метод объекта или класса. Работает с пользовательскими и некоторыми системными классами.
+<br>
+Может быть использован в случаях, когда у объекта приоритет доступа к полям выше, чем к методам.
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример
+<br>
+</b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$h[
+<br>
+&nbsp;&nbsp;&nbsp;$.a[1]
+<br>
+&nbsp;&nbsp;&nbsp;$.foreach[problem?]
+<br>
+]
+<br>
+#&nbsp;</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>метод&nbsp;foreach&nbsp;не&nbsp;может&nbsp;использоваться&nbsp;напрямую,&nbsp;т.к.&nbsp;поле&nbsp;с&nbsp;ключём&nbsp;foreach&nbsp;имеет&nbsp;больший&nbsp;приоритет</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>#^h.foreach[k;v]{</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$k='$v'</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>}[,&nbsp;]
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+#&nbsp;</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>используем&nbsp;^reflection:method[]&nbsp;чтобы&nbsp;добраться&nbsp;до&nbsp;метода&nbsp;</b><b>foreach</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+$m[^reflection:method[$h;foreach]]
+<br>
+^m[k;v]{$k='$v'}[,&nbsp;]</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+Выведет:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>a='1',&nbsp;foreach='problem?'</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 18.06.2012</font></td>
+</tr>
+</table>
+</body>
+</html>

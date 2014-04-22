@@ -1,0 +1,90 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="">
+    <title>delete. Удаление поля объекта</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:Arial; font-size:12pt; color:#000000"><b>delete. Удаление поля объекта</b><b>&nbsp;&nbsp;&nbsp;</b><span style="font-family:Arial; font-size:10pt; color:#000000"><b><i>[3.4.2]</i></b></span><span style="font-family:Arial; font-size:12pt; color:#000000"><b>
+<br>
+</b></span></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^reflection:delete[объект;имя&nbsp;поля]
+<br>
+^reflection:delete[класс;имя&nbsp;поля]
+<br>
+</b><b>
+<br>
+</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">У указанного объекта или класса удаляет поле с указанным именем. Метод аналогичен методу </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^хэш.</b><b><a href=hashdelete.htm>delete</a></b><b>[ключ]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, но работает для объектов и классов.</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример</b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>@main[][a;h]
+<br>
+$a[^a::create[]]
+<br>
+^reflection:delete[$a;b]
+<br>
+
+<br>
+$h[^hash::create[$x]]
+<br>
+^h.foreach[k;v]{$k='$v'}[,&nbsp;]
+<br>
+
+<br>
+
+<br>
+@CLASS
+<br>
+a
+<br>
+
+<br>
+@create[]
+<br>
+$a[1]
+<br>
+$b[2]
+<br>
+$c[3]
+<br>
+
+<br>
+
+<br>
+</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Вернёт:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>a='1',&nbsp;c='3'
+<br>
+</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+</b></span></span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 18.06.2012</font></td>
+</tr>
+</table>
+</body>
+</html>

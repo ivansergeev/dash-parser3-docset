@@ -1,0 +1,3944 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="FrameName" value="content">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="-">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="!">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="!|">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="!||">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="!=">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="#">
+	<param name="Local" value="opevalcomment.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="%">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="&">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="&&">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="*">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value=".csv *">
+	<param name="Local" value="tableoptionsfmt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value=".htaccess *">
+	<param name="Local" value="mathcrypt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value=".log *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="/">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="@GET_имя">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="@SET_имя[значение]">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="\">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="_count">
+	<param name="Local" value="hash_count.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="_default">
+	<param name="Local" value="hashcreate.htm">
+	<param name="Local" value="hashfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="_keys">
+	<param name="Local" value="hash_keys.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="|">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="||">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="~">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="+">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="<">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="<=">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="<FORM …">
+	<param name="Local" value="formclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="<IMG ...">
+	<param name="Local" value="imagehtml.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="<IMG ISMAP …">
+	<param name="Local" value="formimap.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="<xsl:output …">
+	<param name="Local" value="xdocoptions.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="<xsl:param *">
+	<param name="Local" value="xdoctransform.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="==">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value=">">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value=">=">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="404">
+	<param name="Local" value="install4iis_404rewrite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="abs">
+	<param name="Local" value="mathabssign.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="acos">
+	<param name="Local" value="mathsinetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Action *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="adate">
+	<param name="Local" value="filestat.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="add">
+	<param name="Local" value="hashadd.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="AddHandler *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="alt">
+	<param name="Local" value="imagehtml.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="and *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Apache">
+	<param name="Local" value="install4apachecgi.htm">
+	<param name="Local" value="install4apachemodule.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Apache module">
+	<param name="Local" value="install4apachemodule.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="apache passwords *">
+	<param name="Local" value="mathcrypt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="append">
+	<param name="Local" value="tableappend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="appendChild">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="arc">
+	<param name="Local" value="imagearc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="argv">
+	<param name="Local" value="requestargv.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="asc">
+	<param name="Local" value="tablesort.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="asin">
+	<param name="Local" value="mathsinetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="as-is">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="at service *">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="atan">
+	<param name="Local" value="mathsinetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ATTRIBUTE_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="attributes">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="auto">
+	<param name="Local" value="defineclass.htm">
+	<param name="Local" value="mainclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="auto.p">
+	<param name="Local" value="lesson2.htm">
+	<param name="Local" value="lesson3.htm">
+	<param name="Local" value="lesson4.htm">
+	<param name="Local" value="lesson5.htm">
+	<param name="Local" value="install.htm">
+	<param name="Local" value="parserconfig.htm">
+	<param name="Local" value="install4apachecgi.htm">
+	<param name="Local" value="install4apachemodule.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="background *">
+	<param name="Local" value="imageload.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="banner system *">
+	<param name="Local" value="formqtail.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="bar">
+	<param name="Local" value="imagebar.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="BASE">
+	<param name="Local" value="defineclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="base *">
+	<param name="Local" value="xdocuriparam.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="base64">
+	<param name="Local" value="filebase64c.htm">
+	<param name="Local" value="filebase64m.htm">
+	<param name="Local" value="stringbase64c.htm">
+	<param name="Local" value="stringbase64m.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="basename">
+	<param name="Local" value="filebasename.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="binary">
+	<param name="Local" value="filesave.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="bind variables *">
+	<param name="Local" value="app7.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="body">
+	<param name="Local" value="requestbody.htm">
+	<param name="Local" value="responsebody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="body *">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="bool">
+	<param name="Local" value="boollit.htm">
+	<param name="Local" value="intdoublefield.htm">
+	<param name="Local" value="stringintdouble.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="bool">
+	<param name="Local" value="intdoublefield.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="intdoublefield.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="border">
+	<param name="Local" value="imagehtml.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="bound variables *">
+	<param name="Local" value="app7.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="brackets *">
+	<param name="Local" value="params.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cache">
+	<param name="Local" value="opcache.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="calendar">
+	<param name="Local" value="datecalendarweek.htm">
+	<param name="Local" value="datecalendarmonth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="caller">
+	<param name="Local" value="definemethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="caller.self">
+	<param name="Local" value="definemethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="case">
+	<param name="Local" value="opswitch.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="case *">
+	<param name="Local" value="stringuplow.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="catch *">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cbr *">
+	<param name="Local" value="xdocload.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CDATA_SECTION_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cdate">
+	<param name="Local" value="filestat.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ceiling">
+	<param name="Local" value="mathroundetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cgi">
+	<param name="Local" value="filecgiexec.htm">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CGI_ *">
+	<param name="Local" value="envclass.htm">
+	<param name="Local" value="filecgiexec.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CGI_PARSER_CONFIG">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CGI_PARSER_LOG">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="char">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="charset">
+	<param name="Local" value="charsets.htm">
+	<param name="Local" value="mailsend.htm">
+	<param name="Local" value="requestcharset.htm">
+	<param name="Local" value="responsecharset.htm">
+	<param name="Local" value="app3mysql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CharsetDisable *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="charsets">
+	<param name="Local" value="install.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="childNodes">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="circle">
+	<param name="Local" value="imagecircle.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CLASS">
+	<param name="Local" value="obj.htm">
+	<param name="Local" value="defineclass.htm">
+	<param name="Local" value="definemethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CLASS_PATH">
+	<param name="Local" value="app1pathclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cleanup">
+	<param name="Local" value="hashfilecleanup.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="clear">
+	<param name="Local" value="responseclear.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ClientCharset">
+	<param name="Local" value="app3clientcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="clone *">
+	<param name="Local" value="hashcreate.htm">
+	<param name="Local" value="tablecreateclone.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cloneNode">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="columns">
+	<param name="Local" value="tablecolumns.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="comment">
+	<param name="Local" value="opevalcomment.htm">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="comment *">
+	<param name="Local" value="lesson3.htm">
+	<param name="Local" value="oprem.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="COMMENT_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="compact">
+	<param name="Local" value="memorycompact.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="compile">
+	<param name="Local" value="compilesrc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="conf">
+	<param name="Local" value="install.htm">
+	<param name="Local" value="parserconfig.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="connect">
+	<param name="Local" value="opconnect.htm">
+	<param name="Local" value="app3.htm">
+	<param name="Local" value="app3mysql.htm">
+	<param name="Local" value="app3sqlite.htm">
+	<param name="Local" value="app3odbc.htm">
+	<param name="Local" value="app3pgsql.htm">
+	<param name="Local" value="app3oracle.htm">
+	<param name="Local" value="app3clientcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="connect">
+	<param name="Local" value="app3.htm">
+	<param name="Local" value="app3mysql.htm">
+	<param name="Local" value="app3sqlite.htm">
+	<param name="Local" value="app3odbc.htm">
+	<param name="Local" value="app3pgsql.htm">
+	<param name="Local" value="app3oracle.htm">
+	<param name="Local" value="app3clientcharset.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Формат строки подключения">
+	<param name="Local" value="app3.htm">
+	<param name="Local" value="app3mysql.htm">
+	<param name="Local" value="app3sqlite.htm">
+	<param name="Local" value="app3odbc.htm">
+	<param name="Local" value="app3pgsql.htm">
+	<param name="Local" value="app3oracle.htm">
+	<param name="Local" value="app3clientcharset.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="console">
+	<param name="Local" value="consoleclass.htm">
+	<param name="Local" value="consoleread.htm">
+	<param name="Local" value="consolewrite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="console">
+	<param name="Local" value="consoleclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="consoleclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="console">
+	<param name="Local" value="consoleread.htm">
+	<param name="Local" value="consolewrite.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статическое поле">
+	<param name="Local" value="consoleread.htm">
+	<param name="Local" value="consolewrite.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="constructor *">
+	<param name="Local" value="obj.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="contains">
+	<param name="Local" value="hashcontains.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="content-type">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="content-type *">
+	<param name="Local" value="responsebody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cookie">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="cookieclass.htm">
+	<param name="Local" value="cookiestats.htm">
+	<param name="Local" value="cookierec.htm">
+	<param name="Local" value="cookiefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cookie">
+	<param name="Local" value="cookierec.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Запись">
+	<param name="Local" value="cookierec.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cookie">
+	<param name="Local" value="cookieclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="cookieclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cookie">
+	<param name="Local" value="cookiefields.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические поля">
+	<param name="Local" value="cookiefields.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cookie">
+	<param name="Local" value="cookiestats.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Чтение">
+	<param name="Local" value="cookiestats.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="copy">
+	<param name="Local" value="filecopy.htm">
+	<param name="Local" value="imagecopy.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="copy *">
+	<param name="Local" value="tablecreateclone.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cos">
+	<param name="Local" value="mathsinetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="count">
+	<param name="Local" value="tablecount.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="count *">
+	<param name="Local" value="hash_count.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="counter *">
+	<param name="Local" value="filelock.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cp *">
+	<param name="Local" value="filecopy.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="crc32">
+	<param name="Local" value="filecrc32m.htm">
+	<param name="Local" value="filecrc32.htm">
+	<param name="Local" value="mathcrc32.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="create">
+	<param name="Local" value="charsets.htm">
+	<param name="Local" value="datecreatestring.htm">
+	<param name="Local" value="datecreaterel.htm">
+	<param name="Local" value="datecreateabs.htm">
+	<param name="Local" value="filecreate.htm">
+	<param name="Local" value="hashcreate.htm">
+	<param name="Local" value="imagecreate.htm">
+	<param name="Local" value="imageline.htm">
+	<param name="Local" value="tablecreate.htm">
+	<param name="Local" value="tablecreateclone.htm">
+	<param name="Local" value="xdoccreatexml.htm">
+	<param name="Local" value="xdoccreateempty.htm">
+	<param name="Local" value="xdoccreatefile.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="create table *">
+	<param name="Local" value="voidsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createAttribute">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createCDATASection">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createComment">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createDocumentFragment">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createElement">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createElementNS">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createEntityReference">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createProcessingInstruction">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="createTextNode">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cron *">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="crypt">
+	<param name="Local" value="mathcrypt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="cur">
+	<param name="Local" value="tableoffset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="currency *">
+	<param name="Local" value="xdocload.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="CVS">
+	<param name="Local" value="compilesrc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="-d">
+	<param name="Local" value="exprops.htm">
+	<param name="Local" value="opsfd.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="dashed *">
+	<param name="Local" value="imagestylewidth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="date">
+	<param name="Local" value="dateclass.htm">
+	<param name="Local" value="datecreatestring.htm">
+	<param name="Local" value="datecreaterel.htm">
+	<param name="Local" value="datecreateabs.htm">
+	<param name="Local" value="datenow.htm">
+	<param name="Local" value="dateunixtscreate.htm">
+	<param name="Local" value="datefields.htm">
+	<param name="Local" value="datelastdaym.htm">
+	<param name="Local" value="dateroll.htm">
+	<param name="Local" value="datesqlstring.htm">
+	<param name="Local" value="dateunixts.htm">
+	<param name="Local" value="datecalendarweek.htm">
+	<param name="Local" value="datecalendarmonth.htm">
+	<param name="Local" value="datelastday.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="date">
+	<param name="Local" value="dateclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="dateclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="date">
+	<param name="Local" value="datecreatestring.htm">
+	<param name="Local" value="datecreaterel.htm">
+	<param name="Local" value="datecreateabs.htm">
+	<param name="Local" value="datenow.htm">
+	<param name="Local" value="dateunixtscreate.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Конструкторы">
+	<param name="Local" value="datecreatestring.htm">
+	<param name="Local" value="datecreaterel.htm">
+	<param name="Local" value="datecreateabs.htm">
+	<param name="Local" value="datenow.htm">
+	<param name="Local" value="dateunixtscreate.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="date">
+	<param name="Local" value="datelastdaym.htm">
+	<param name="Local" value="dateroll.htm">
+	<param name="Local" value="datesqlstring.htm">
+	<param name="Local" value="dateunixts.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="datelastdaym.htm">
+	<param name="Local" value="dateroll.htm">
+	<param name="Local" value="datesqlstring.htm">
+	<param name="Local" value="dateunixts.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="date">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Поля">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="date">
+	<param name="Local" value="datecalendarweek.htm">
+	<param name="Local" value="datecalendarmonth.htm">
+	<param name="Local" value="datelastday.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические методы">
+	<param name="Local" value="datecalendarweek.htm">
+	<param name="Local" value="datecalendarmonth.htm">
+	<param name="Local" value="datelastday.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="day">
+	<param name="Local" value="datefields.htm">
+	<param name="Local" value="dateroll.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="daylightsaving">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="deadlock *">
+	<param name="Local" value="filelock.htm">
+	<param name="Local" value="hashfileopen.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="dec">
+	<param name="Local" value="intdoubleincetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="def">
+	<param name="Local" value="exprops.htm">
+	<param name="Local" value="opdef.htm">
+	<param name="Local" value="stringclass.htm">
+	<param name="Local" value="tableclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="default">
+	<param name="Local" value="intdoublesql.htm">
+	<param name="Local" value="hashcreate.htm">
+	<param name="Local" value="hashfields.htm">
+	<param name="Local" value="stringsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="degree">
+	<param name="Local" value="matdegreesetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="delete">
+	<param name="Local" value="filedelete.htm">
+	<param name="Local" value="hashdelete.htm">
+	<param name="Local" value="hashfiledelete.htm">
+	<param name="Local" value="hashfiledeletefiles.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="delete from *">
+	<param name="Local" value="voidsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="desc">
+	<param name="Local" value="tablesort.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="diagram *">
+	<param name="Local" value="responsebody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="digest *">
+	<param name="Local" value="filemd5m.htm">
+	<param name="Local" value="filemd5.htm">
+	<param name="Local" value="mathmd5.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="digit">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="dir *">
+	<param name="Local" value="filelist.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="directory *">
+	<param name="Local" value="filedirname.htm">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="dirname">
+	<param name="Local" value="filedirname.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="div">
+	<param name="Local" value="intdoubleincetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DOCUMENT_FRAGMENT_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DOCUMENT_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DOCUMENT_ROOT *">
+	<param name="Local" value="requestdocroot.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DOCUMENT_TYPE_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="document-root">
+	<param name="Local" value="requestdocroot.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DocumentRoot *">
+	<param name="Local" value="requestdocroot.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DOM">
+	<param name="Local" value="lesson6.htm">
+	<param name="Local" value="xdocclass.htm">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xdocdomfields.htm">
+	<param name="Local" value="xnodeclass.htm">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DOM1">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xdocdomfields.htm">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DOM2">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="domain">
+	<param name="Local" value="cookierec.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="dotted *">
+	<param name="Local" value="imagestylewidth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="double">
+	<param name="Local" value="numlit.htm">
+	<param name="Local" value="intdoubleclasses.htm">
+	<param name="Local" value="intdoubleformat.htm">
+	<param name="Local" value="intdoubleincetc.htm">
+	<param name="Local" value="intdoublefield.htm">
+	<param name="Local" value="intdoublesql.htm">
+	<param name="Local" value="stringintdouble.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="double">
+	<param name="Local" value="intdoubleclasses.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="intdoubleclasses.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="double">
+	<param name="Local" value="intdoubleformat.htm">
+	<param name="Local" value="intdoubleincetc.htm">
+	<param name="Local" value="intdoublefield.htm">
+	<param name="Local" value="intdoublesql.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="intdoubleformat.htm">
+	<param name="Local" value="intdoubleincetc.htm">
+	<param name="Local" value="intdoublefield.htm">
+	<param name="Local" value="intdoublesql.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="download">
+	<param name="Local" value="responsedownload.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="download *">
+	<param name="Local" value="responsebody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="draw *">
+	<param name="Local" value="imageclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="drivers *">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="DSN">
+	<param name="Local" value="app3odbc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ELEMENT_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ellipse *">
+	<param name="Local" value="imagearc.htm">
+	<param name="Local" value="imagesector.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="encoding *">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="eng">
+	<param name="Local" value="datecalendarweek.htm">
+	<param name="Local" value="datecalendarmonth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ENTITY_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ENTITY_REFERENCE_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="env">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="envclass.htm">
+	<param name="Local" value="envpver.htm">
+	<param name="Local" value="envstats.htm">
+	<param name="Local" value="envhttpfield.htm">
+	<param name="Local" value="filecgiexec.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="env">
+	<param name="Local" value="envclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="envclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="env">
+	<param name="Local" value="envpver.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Получение версии Parser">
+	<param name="Local" value="envpver.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="env">
+	<param name="Local" value="envhttpfield.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Получение значения поля запроса">
+	<param name="Local" value="envhttpfield.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="env">
+	<param name="Local" value="envstats.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические поля">
+	<param name="Local" value="envstats.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="eq">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="equal *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="error *">
+	<param name="Local" value="app6.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="error.log *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="error_log *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="eval">
+	<param name="Local" value="opeval.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="eval comment *">
+	<param name="Local" value="opevalcomment.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ever_allocated_since_compact">
+	<param name="Local" value="statusmemory.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ever_allocated_since_start">
+	<param name="Local" value="statusmemory.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Excel *">
+	<param name="Local" value="tableoptionsfmt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="exception">
+	<param name="Local" value="exceptions.htm">
+	<param name="Local" value="parserexceptions.htm">
+	<param name="Local" value="app6.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="exec">
+	<param name="Local" value="filecgiexec.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="EXIF *">
+	<param name="Local" value="imageclass.htm">
+	<param name="Local" value="imagemeasure.htm">
+	<param name="Local" value="imagefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="exists *">
+	<param name="Local" value="opsfd.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="exp">
+	<param name="Local" value="mathexplog.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="expires">
+	<param name="Local" value="cookierec.htm">
+	<param name="Local" value="hashfilewrite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="expires *">
+	<param name="Local" value="responseheaders.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="extension *">
+	<param name="Local" value="filejustext.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="-f">
+	<param name="Local" value="exprops.htm">
+	<param name="Local" value="opsfd.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="false">
+	<param name="Local" value="boollit.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="fields">
+	<param name="Local" value="cookiefields.htm">
+	<param name="Local" value="formfields.htm">
+	<param name="Local" value="hashfieldsfield.htm">
+	<param name="Local" value="tablehash.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file">
+	<param name="Local" value="optry.htm">
+	<param name="Local" value="fileclass.htm">
+	<param name="Local" value="filebase64c.htm">
+	<param name="Local" value="filecgiexec.htm">
+	<param name="Local" value="filecreate.htm">
+	<param name="Local" value="fileload.htm">
+	<param name="Local" value="filesql.htm">
+	<param name="Local" value="filestat.htm">
+	<param name="Local" value="filefields.htm">
+	<param name="Local" value="filebase64m.htm">
+	<param name="Local" value="filecrc32m.htm">
+	<param name="Local" value="filemd5m.htm">
+	<param name="Local" value="filesave.htm">
+	<param name="Local" value="filesqlstring.htm">
+	<param name="Local" value="filebasename.htm">
+	<param name="Local" value="filecopy.htm">
+	<param name="Local" value="filecrc32.htm">
+	<param name="Local" value="filedelete.htm">
+	<param name="Local" value="filedirname.htm">
+	<param name="Local" value="filefind.htm">
+	<param name="Local" value="filefullpath.htm">
+	<param name="Local" value="filejustext.htm">
+	<param name="Local" value="filejustname.htm">
+	<param name="Local" value="filelist.htm">
+	<param name="Local" value="filelock.htm">
+	<param name="Local" value="filemd5.htm">
+	<param name="Local" value="filemove.htm">
+	<param name="Local" value="mailsend.htm">
+	<param name="Local" value="xdoccreatefile.htm">
+	<param name="Local" value="xdocfile.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file">
+	<param name="Local" value="fileclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="fileclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file">
+	<param name="Local" value="filebase64c.htm">
+	<param name="Local" value="filecgiexec.htm">
+	<param name="Local" value="filecreate.htm">
+	<param name="Local" value="fileload.htm">
+	<param name="Local" value="filesql.htm">
+	<param name="Local" value="filestat.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Конструкторы">
+	<param name="Local" value="filebase64c.htm">
+	<param name="Local" value="filecgiexec.htm">
+	<param name="Local" value="filecreate.htm">
+	<param name="Local" value="fileload.htm">
+	<param name="Local" value="filesql.htm">
+	<param name="Local" value="filestat.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file">
+	<param name="Local" value="filebase64m.htm">
+	<param name="Local" value="filecrc32m.htm">
+	<param name="Local" value="filemd5m.htm">
+	<param name="Local" value="filesave.htm">
+	<param name="Local" value="filesqlstring.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="filebase64m.htm">
+	<param name="Local" value="filecrc32m.htm">
+	<param name="Local" value="filemd5m.htm">
+	<param name="Local" value="filesave.htm">
+	<param name="Local" value="filesqlstring.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file">
+	<param name="Local" value="filefields.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Поля">
+	<param name="Local" value="filefields.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file">
+	<param name="Local" value="filebasename.htm">
+	<param name="Local" value="filecopy.htm">
+	<param name="Local" value="filecrc32.htm">
+	<param name="Local" value="filedelete.htm">
+	<param name="Local" value="filedirname.htm">
+	<param name="Local" value="filefind.htm">
+	<param name="Local" value="filefullpath.htm">
+	<param name="Local" value="filejustext.htm">
+	<param name="Local" value="filejustname.htm">
+	<param name="Local" value="filelist.htm">
+	<param name="Local" value="filelock.htm">
+	<param name="Local" value="filemd5.htm">
+	<param name="Local" value="filemove.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические методы">
+	<param name="Local" value="filebasename.htm">
+	<param name="Local" value="filecopy.htm">
+	<param name="Local" value="filecrc32.htm">
+	<param name="Local" value="filedelete.htm">
+	<param name="Local" value="filedirname.htm">
+	<param name="Local" value="filefind.htm">
+	<param name="Local" value="filefullpath.htm">
+	<param name="Local" value="filejustext.htm">
+	<param name="Local" value="filejustname.htm">
+	<param name="Local" value="filelist.htm">
+	<param name="Local" value="filelock.htm">
+	<param name="Local" value="filemd5.htm">
+	<param name="Local" value="filemove.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file.access">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file.missing">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file::load">
+	<param name="Local" value="app1.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="filename *">
+	<param name="Local" value="filebasename.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="files">
+	<param name="Local" value="formfiles.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Files *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="file-spec">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="fill">
+	<param name="Local" value="imagefill.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="filled">
+	<param name="Local" value="imagebar.htm">
+	<param name="Local" value="imagepolybar.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="filled *">
+	<param name="Local" value="imagesector.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="filter *">
+	<param name="Local" value="tableselect.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="find">
+	<param name="Local" value="filefind.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="find *">
+	<param name="Local" value="stringmatch.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="firstChild">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="firstthat *">
+	<param name="Local" value="tablelocate.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="flip">
+	<param name="Local" value="tableflip.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="floor">
+	<param name="Local" value="mathroundetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="font">
+	<param name="Local" value="imagefont.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="for">
+	<param name="Local" value="opfor.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="foreach">
+	<param name="Local" value="hashforeach.htm">
+	<param name="Local" value="hashfileforeach.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="foreach *">
+	<param name="Local" value="tablemenu.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="form">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="formclass.htm">
+	<param name="Local" value="formfield.htm">
+	<param name="Local" value="formfields.htm">
+	<param name="Local" value="formfiles.htm">
+	<param name="Local" value="formimap.htm">
+	<param name="Local" value="formqtail.htm">
+	<param name="Local" value="formtables.htm">
+	<param name="Local" value="stringintdouble.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="form">
+	<param name="Local" value="formclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="formclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="form">
+	<param name="Local" value="formfield.htm">
+	<param name="Local" value="formfields.htm">
+	<param name="Local" value="formfiles.htm">
+	<param name="Local" value="formimap.htm">
+	<param name="Local" value="formqtail.htm">
+	<param name="Local" value="formtables.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические поля">
+	<param name="Local" value="formfield.htm">
+	<param name="Local" value="formfields.htm">
+	<param name="Local" value="formfiles.htm">
+	<param name="Local" value="formimap.htm">
+	<param name="Local" value="formqtail.htm">
+	<param name="Local" value="formtables.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="format">
+	<param name="Local" value="intdoubleformat.htm">
+	<param name="Local" value="stringformat.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="format *">
+	<param name="Local" value="opeval.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="format specifiers *">
+	<param name="Local" value="app2.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="frac">
+	<param name="Local" value="mathtruncfrac.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="free">
+	<param name="Local" value="statusmemory.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="from">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="fullpath">
+	<param name="Local" value="filefullpath.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ge">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="GET *">
+	<param name="Local" value="formclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="GET_имя">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="getAttribute">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="getAttributeNode">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="getElementById">
+	<param name="Local" value="xdocdommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="getElementsByTagName">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="getElementsByTagNameNS">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="getter *">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="GIF">
+	<param name="Local" value="imageload.htm">
+	<param name="Local" value="imagegif.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="GIF *">
+	<param name="Local" value="imagemeasure.htm">
+	<param name="Local" value="imagegif.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="gmtime *">
+	<param name="Local" value="dateroll.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="graph *">
+	<param name="Local" value="responsebody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="greater or equal *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="greater then *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="gt">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="GUID *">
+	<param name="Local" value="mathuuid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="handled">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="has intersection *">
+	<param name="Local" value="hashintersects.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hasAttribute">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hasAttributeNS">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hasAttributes">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hasChildNodes">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash">
+	<param name="Local" value="hash.htm">
+	<param name="Local" value="opis.htm">
+	<param name="Local" value="hashclass.htm">
+	<param name="Local" value="hashctors.htm">
+	<param name="Local" value="hashcreate.htm">
+	<param name="Local" value="hashsql.htm">
+	<param name="Local" value="hashfields.htm">
+	<param name="Local" value="hashfieldsfield.htm">
+	<param name="Local" value="hash_count.htm">
+	<param name="Local" value="hash_keys.htm">
+	<param name="Local" value="hashcontains.htm">
+	<param name="Local" value="hashdelete.htm">
+	<param name="Local" value="hashforeach.htm">
+	<param name="Local" value="hashadd.htm">
+	<param name="Local" value="hashintersection.htm">
+	<param name="Local" value="hashintersects.htm">
+	<param name="Local" value="hashsub.htm">
+	<param name="Local" value="hashunion.htm">
+	<param name="Local" value="hashfilehash.htm">
+	<param name="Local" value="table2hash.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash">
+	<param name="Local" value="hashfieldsfield.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Использование хеша вместо таблицы">
+	<param name="Local" value="hashfieldsfield.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash">
+	<param name="Local" value="hashclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="hashclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash">
+	<param name="Local" value="hashctors.htm">
+	<param name="Local" value="hashcreate.htm">
+	<param name="Local" value="hashsql.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Конструкторы">
+	<param name="Local" value="hashctors.htm">
+	<param name="Local" value="hashcreate.htm">
+	<param name="Local" value="hashsql.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash">
+	<param name="Local" value="hash_count.htm">
+	<param name="Local" value="hash_keys.htm">
+	<param name="Local" value="hashcontains.htm">
+	<param name="Local" value="hashdelete.htm">
+	<param name="Local" value="hashforeach.htm">
+	<param name="Local" value="hashadd.htm">
+	<param name="Local" value="hashintersection.htm">
+	<param name="Local" value="hashintersects.htm">
+	<param name="Local" value="hashsub.htm">
+	<param name="Local" value="hashunion.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="hash_count.htm">
+	<param name="Local" value="hash_keys.htm">
+	<param name="Local" value="hashcontains.htm">
+	<param name="Local" value="hashdelete.htm">
+	<param name="Local" value="hashforeach.htm">
+	<param name="Local" value="hashadd.htm">
+	<param name="Local" value="hashintersection.htm">
+	<param name="Local" value="hashintersects.htm">
+	<param name="Local" value="hashsub.htm">
+	<param name="Local" value="hashunion.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash">
+	<param name="Local" value="hashfields.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Поля">
+	<param name="Local" value="hashfields.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash of bool *">
+	<param name="Local" value="hashsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hash of hash *">
+	<param name="Local" value="hashsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hashfile">
+	<param name="Local" value="hashfileclass.htm">
+	<param name="Local" value="hashfileopen.htm">
+	<param name="Local" value="hashfilecleanup.htm">
+	<param name="Local" value="hashfiledelete.htm">
+	<param name="Local" value="hashfiledeletefiles.htm">
+	<param name="Local" value="hashfileforeach.htm">
+	<param name="Local" value="hashfilehash.htm">
+	<param name="Local" value="hashfilerelease.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hashfile">
+	<param name="Local" value="hashfilewrite.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Запись">
+	<param name="Local" value="hashfilewrite.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hashfile">
+	<param name="Local" value="hashfileclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="hashfileclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hashfile">
+	<param name="Local" value="hashfileopen.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Конструктор">
+	<param name="Local" value="hashfileopen.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hashfile">
+	<param name="Local" value="hashfilecleanup.htm">
+	<param name="Local" value="hashfiledelete.htm">
+	<param name="Local" value="hashfiledeletefiles.htm">
+	<param name="Local" value="hashfileforeach.htm">
+	<param name="Local" value="hashfilehash.htm">
+	<param name="Local" value="hashfilerelease.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="hashfilecleanup.htm">
+	<param name="Local" value="hashfiledelete.htm">
+	<param name="Local" value="hashfiledeletefiles.htm">
+	<param name="Local" value="hashfileforeach.htm">
+	<param name="Local" value="hashfilehash.htm">
+	<param name="Local" value="hashfilerelease.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hashfile">
+	<param name="Local" value="hashfileread.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Чтение">
+	<param name="Local" value="hashfileread.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hashing passwords *">
+	<param name="Local" value="mathcrypt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="have method *">
+	<param name="Local" value="junctionclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="headers">
+	<param name="Local" value="responseheaders.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="height">
+	<param name="Local" value="imagefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hexadecimal *">
+	<param name="Local" value="numlit.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hex-digit">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="hour">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="htaccess *">
+	<param name="Local" value="mathcrypt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="html">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="imagehtml.htm">
+	<param name="Local" value="mailsend.htm">
+	<param name="Local" value="xdocclass.htm">
+	<param name="Local" value="xdocfile.htm">
+	<param name="Local" value="xdocsave.htm">
+	<param name="Local" value="xdocstring.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="HTTP *">
+	<param name="Local" value="charsets.htm">
+	<param name="Local" value="cookieclass.htm">
+	<param name="Local" value="fileload.htm">
+	<param name="Local" value="filefields.htm">
+	<param name="Local" value="formclass.htm">
+	<param name="Local" value="requestclass.htm">
+	<param name="Local" value="responseclass.htm">
+	<param name="Local" value="responsefields.htm">
+	<param name="Local" value="responsebody.htm">
+	<param name="Local" value="tableload.htm">
+	<param name="Local" value="xdocload.htm">
+	<param name="Local" value="app1.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="http://www.cbr.ru/scripts/XML_daily.asp">
+	<param name="Local" value="xdocload.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="HTTP_ *">
+	<param name="Local" value="envclass.htm">
+	<param name="Local" value="envhttpfield.htm">
+	<param name="Local" value="filecgiexec.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="HTTP_USER_AGENT *">
+	<param name="Local" value="envhttpfield.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="http-header">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="if">
+	<param name="Local" value="exprlit.htm">
+	<param name="Local" value="opif.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ifdef *">
+	<param name="Local" value="opdef.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="IIS">
+	<param name="Local" value="install4iis.htm">
+	<param name="Local" value="install4iis_404rewrite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image">
+	<param name="Local" value="imageclass.htm">
+	<param name="Local" value="imagecreate.htm">
+	<param name="Local" value="imageload.htm">
+	<param name="Local" value="imagemeasure.htm">
+	<param name="Local" value="imagefields.htm">
+	<param name="Local" value="imagegif.htm">
+	<param name="Local" value="imagehtml.htm">
+	<param name="Local" value="imagepaint.htm">
+	<param name="Local" value="imagestylewidth.htm">
+	<param name="Local" value="imagearc.htm">
+	<param name="Local" value="imagebar.htm">
+	<param name="Local" value="imagecircle.htm">
+	<param name="Local" value="imagecopy.htm">
+	<param name="Local" value="imagefill.htm">
+	<param name="Local" value="imagefont.htm">
+	<param name="Local" value="imagelength.htm">
+	<param name="Local" value="imageline.htm">
+	<param name="Local" value="imagepixel.htm">
+	<param name="Local" value="imagepolybar.htm">
+	<param name="Local" value="imagepolygon.htm">
+	<param name="Local" value="imagepolyline.htm">
+	<param name="Local" value="imagerectangle.htm">
+	<param name="Local" value="imagereplace.htm">
+	<param name="Local" value="imagesector.htm">
+	<param name="Local" value="imagetext.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image">
+	<param name="Local" value="imageclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="imageclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image">
+	<param name="Local" value="imagecreate.htm">
+	<param name="Local" value="imageload.htm">
+	<param name="Local" value="imagemeasure.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Конструкторы">
+	<param name="Local" value="imagecreate.htm">
+	<param name="Local" value="imageload.htm">
+	<param name="Local" value="imagemeasure.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image">
+	<param name="Local" value="imagegif.htm">
+	<param name="Local" value="imagehtml.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="imagegif.htm">
+	<param name="Local" value="imagehtml.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image">
+	<param name="Local" value="imagepaint.htm">
+	<param name="Local" value="imagestylewidth.htm">
+	<param name="Local" value="imagearc.htm">
+	<param name="Local" value="imagebar.htm">
+	<param name="Local" value="imagecircle.htm">
+	<param name="Local" value="imagecopy.htm">
+	<param name="Local" value="imagefill.htm">
+	<param name="Local" value="imagefont.htm">
+	<param name="Local" value="imagelength.htm">
+	<param name="Local" value="imageline.htm">
+	<param name="Local" value="imagepixel.htm">
+	<param name="Local" value="imagepolybar.htm">
+	<param name="Local" value="imagepolygon.htm">
+	<param name="Local" value="imagepolyline.htm">
+	<param name="Local" value="imagerectangle.htm">
+	<param name="Local" value="imagereplace.htm">
+	<param name="Local" value="imagesector.htm">
+	<param name="Local" value="imagetext.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы рисования">
+	<param name="Local" value="imagepaint.htm">
+	<param name="Local" value="imagestylewidth.htm">
+	<param name="Local" value="imagearc.htm">
+	<param name="Local" value="imagebar.htm">
+	<param name="Local" value="imagecircle.htm">
+	<param name="Local" value="imagecopy.htm">
+	<param name="Local" value="imagefill.htm">
+	<param name="Local" value="imagefont.htm">
+	<param name="Local" value="imagelength.htm">
+	<param name="Local" value="imageline.htm">
+	<param name="Local" value="imagepixel.htm">
+	<param name="Local" value="imagepolybar.htm">
+	<param name="Local" value="imagepolygon.htm">
+	<param name="Local" value="imagepolyline.htm">
+	<param name="Local" value="imagerectangle.htm">
+	<param name="Local" value="imagereplace.htm">
+	<param name="Local" value="imagesector.htm">
+	<param name="Local" value="imagetext.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image">
+	<param name="Local" value="imagefields.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Поля">
+	<param name="Local" value="imagefields.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image *">
+	<param name="Local" value="responsebody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="image.format">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="imap">
+	<param name="Local" value="formimap.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="img">
+	<param name="Local" value="imagehtml.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="importNode">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="in">
+	<param name="Local" value="exprops.htm">
+	<param name="Local" value="opin.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="IN *">
+	<param name="Local" value="app7.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="IN/OUT *">
+	<param name="Local" value="app7.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="inc">
+	<param name="Local" value="intdoubleincetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="include">
+	<param name="Local" value="opprocess.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="include *">
+	<param name="Local" value="definemethod.htm">
+	<param name="Local" value="filecgiexec.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="inetd *">
+	<param name="Local" value="consoleclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="insert into *">
+	<param name="Local" value="voidsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="insertBefore">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="install">
+	<param name="Local" value="install.htm">
+	<param name="Local" value="parserconfig.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	<param name="Local" value="installcharset.htm">
+	<param name="Local" value="install4apachecgi.htm">
+	<param name="Local" value="install4apachemodule.htm">
+	<param name="Local" value="install4iis.htm">
+	<param name="Local" value="install4iis_404rewrite.htm">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="install">
+	<param name="Local" value="install.htm">
+	<param name="Local" value="parserconfig.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	<param name="Local" value="installcharset.htm">
+	<param name="Local" value="install4apachecgi.htm">
+	<param name="Local" value="install4apachemodule.htm">
+	<param name="Local" value="install4iis.htm">
+	<param name="Local" value="install4iis_404rewrite.htm">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Установка и настройка Parser">
+	<param name="Local" value="install.htm">
+	<param name="Local" value="parserconfig.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	<param name="Local" value="installcharset.htm">
+	<param name="Local" value="install4apachecgi.htm">
+	<param name="Local" value="install4apachemodule.htm">
+	<param name="Local" value="install4iis.htm">
+	<param name="Local" value="install4iis_404rewrite.htm">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="int">
+	<param name="Local" value="numlit.htm">
+	<param name="Local" value="intdoubleclasses.htm">
+	<param name="Local" value="intdoubleformat.htm">
+	<param name="Local" value="intdoubleincetc.htm">
+	<param name="Local" value="intdoublefield.htm">
+	<param name="Local" value="intdoublesql.htm">
+	<param name="Local" value="stringintdouble.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="int">
+	<param name="Local" value="intdoubleclasses.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="intdoubleclasses.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="int">
+	<param name="Local" value="intdoubleformat.htm">
+	<param name="Local" value="intdoubleincetc.htm">
+	<param name="Local" value="intdoublefield.htm">
+	<param name="Local" value="intdoublesql.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="intdoubleformat.htm">
+	<param name="Local" value="intdoubleincetc.htm">
+	<param name="Local" value="intdoublefield.htm">
+	<param name="Local" value="intdoublesql.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="intersection">
+	<param name="Local" value="hashintersection.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="intersects">
+	<param name="Local" value="hashintersects.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="is">
+	<param name="Local" value="exprops.htm">
+	<param name="Local" value="opis.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ISMAP *">
+	<param name="Local" value="formimap.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="join">
+	<param name="Local" value="tablejoin.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="JPEG *">
+	<param name="Local" value="imagemeasure.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="JPG *">
+	<param name="Local" value="imagemeasure.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="js">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="junction">
+	<param name="Local" value="junctionclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="junction">
+	<param name="Local" value="junctionclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="junctionclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="justext">
+	<param name="Local" value="filejustext.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="justname">
+	<param name="Local" value="filejustname.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="keys *">
+	<param name="Local" value="hash_keys.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="lastChild">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="last-day">
+	<param name="Local" value="datelastdaym.htm">
+	<param name="Local" value="datelastday.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="le">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="left">
+	<param name="Local" value="stringltrt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="legend *">
+	<param name="Local" value="imagecopy.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="length">
+	<param name="Local" value="imagelength.htm">
+	<param name="Local" value="stringlength.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="less or equal *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="less then *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="letter">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="limit">
+	<param name="Local" value="intdoublesql.htm">
+	<param name="Local" value="hashsql.htm">
+	<param name="Local" value="stringsql.htm">
+	<param name="Local" value="tablesql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="LIMITS">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="line">
+	<param name="Local" value="imagefill.htm">
+	<param name="Local" value="imageline.htm">
+	<param name="Local" value="tableline.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="lineno">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="line-style">
+	<param name="Local" value="imagestylewidth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="line-width">
+	<param name="Local" value="imagestylewidth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="list">
+	<param name="Local" value="filelist.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="load">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="fileload.htm">
+	<param name="Local" value="imageload.htm">
+	<param name="Local" value="tableload.htm">
+	<param name="Local" value="xdocload.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="local">
+	<param name="Local" value="app3pgsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="localtime *">
+	<param name="Local" value="dateroll.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="locate">
+	<param name="Local" value="tablelocate.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="location">
+	<param name="Local" value="responsefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="lock">
+	<param name="Local" value="filelock.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="log">
+	<param name="Local" value="mathexplog.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="log10">
+	<param name="Local" value="mathexplog.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="loop *">
+	<param name="Local" value="opfor.htm">
+	<param name="Local" value="opwhile.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="lower">
+	<param name="Local" value="stringuplow.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="lowercase">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ls *">
+	<param name="Local" value="filelist.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="lsplit *">
+	<param name="Local" value="stringsplit.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="lt">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mail">
+	<param name="Local" value="mailclass.htm">
+	<param name="Local" value="mailsend.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mail">
+	<param name="Local" value="mailclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="mailclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mail">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические методы">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mail-header">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="MAIN">
+	<param name="Local" value="lesson2.htm">
+	<param name="Local" value="lesson4.htm">
+	<param name="Local" value="lesson5.htm">
+	<param name="Local" value="obj.htm">
+	<param name="Local" value="definemethod.htm">
+	<param name="Local" value="mainclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="make *">
+	<param name="Local" value="compilesrc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="match">
+	<param name="Local" value="stringsql.htm">
+	<param name="Local" value="stringmatch.htm">
+	<param name="Local" value="stringmatchreplace.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="math">
+	<param name="Local" value="mathclass.htm">
+	<param name="Local" value="mathstats.htm">
+	<param name="Local" value="mathabssign.htm">
+	<param name="Local" value="mathcrc32.htm">
+	<param name="Local" value="mathcrypt.htm">
+	<param name="Local" value="matdegreesetc.htm">
+	<param name="Local" value="mathexplog.htm">
+	<param name="Local" value="mathmd5.htm">
+	<param name="Local" value="mathpow.htm">
+	<param name="Local" value="mathrandom.htm">
+	<param name="Local" value="mathroundetc.htm">
+	<param name="Local" value="mathsha1.htm">
+	<param name="Local" value="mathsinetc.htm">
+	<param name="Local" value="matsqrt.htm">
+	<param name="Local" value="mathtruncfrac.htm">
+	<param name="Local" value="mathuid64.htm">
+	<param name="Local" value="mathuuid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="math">
+	<param name="Local" value="mathclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="mathclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="math">
+	<param name="Local" value="mathabssign.htm">
+	<param name="Local" value="mathcrc32.htm">
+	<param name="Local" value="mathcrypt.htm">
+	<param name="Local" value="matdegreesetc.htm">
+	<param name="Local" value="mathexplog.htm">
+	<param name="Local" value="mathmd5.htm">
+	<param name="Local" value="mathpow.htm">
+	<param name="Local" value="mathrandom.htm">
+	<param name="Local" value="mathroundetc.htm">
+	<param name="Local" value="mathsha1.htm">
+	<param name="Local" value="mathsinetc.htm">
+	<param name="Local" value="matsqrt.htm">
+	<param name="Local" value="mathtruncfrac.htm">
+	<param name="Local" value="mathuid64.htm">
+	<param name="Local" value="mathuuid.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические методы">
+	<param name="Local" value="mathabssign.htm">
+	<param name="Local" value="mathcrc32.htm">
+	<param name="Local" value="mathcrypt.htm">
+	<param name="Local" value="matdegreesetc.htm">
+	<param name="Local" value="mathexplog.htm">
+	<param name="Local" value="mathmd5.htm">
+	<param name="Local" value="mathpow.htm">
+	<param name="Local" value="mathrandom.htm">
+	<param name="Local" value="mathroundetc.htm">
+	<param name="Local" value="mathsha1.htm">
+	<param name="Local" value="mathsinetc.htm">
+	<param name="Local" value="matsqrt.htm">
+	<param name="Local" value="mathtruncfrac.htm">
+	<param name="Local" value="mathuid64.htm">
+	<param name="Local" value="mathuuid.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="math">
+	<param name="Local" value="mathstats.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические поля">
+	<param name="Local" value="mathstats.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="md5">
+	<param name="Local" value="filemd5m.htm">
+	<param name="Local" value="filemd5.htm">
+	<param name="Local" value="mathmd5.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mdate">
+	<param name="Local" value="filestat.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="measure">
+	<param name="Local" value="imagemeasure.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="memory">
+	<param name="Local" value="memoryclass.htm">
+	<param name="Local" value="memorycompact.htm">
+	<param name="Local" value="statusmemory.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="memory">
+	<param name="Local" value="memoryclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="memoryclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="memory">
+	<param name="Local" value="memorycompact.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="memorycompact.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="menu">
+	<param name="Local" value="tablemenu.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="message">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="method exists *">
+	<param name="Local" value="junctionclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mid">
+	<param name="Local" value="stringmid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mime-type">
+	<param name="Local" value="filefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="MIME-TYPES">
+	<param name="Local" value="responsebody.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="minute">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mod">
+	<param name="Local" value="intdoubleincetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mod_rewrite *">
+	<param name="Local" value="filefullpath.htm">
+	<param name="Local" value="install4iis_404rewrite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="month">
+	<param name="Local" value="datefields.htm">
+	<param name="Local" value="dateroll.htm">
+	<param name="Local" value="datecalendarmonth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="move">
+	<param name="Local" value="filemove.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mul">
+	<param name="Local" value="intdoubleincetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="multiply *">
+	<param name="Local" value="hashintersection.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mv *">
+	<param name="Local" value="filemove.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="mysql">
+	<param name="Local" value="app3mysql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="name">
+	<param name="Local" value="filefields.htm">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="name *">
+	<param name="Local" value="filebasename.htm">
+	<param name="Local" value="filejustname.htm">
+	<param name="Local" value="app5.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ne">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="news *">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="news:// *">
+	<param name="Local" value="consoleclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="nextSibling">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="NNTP *">
+	<param name="Local" value="consoleclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="no ext *">
+	<param name="Local" value="filejustname.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="no path *">
+	<param name="Local" value="filebasename.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="nodeName">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="nodeType">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="nodeValue">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="normalize">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="not *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="not equal *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="NOTATION_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="now">
+	<param name="Local" value="datenow.htm">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="NULL *">
+	<param name="Local" value="app7.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="number *">
+	<param name="Local" value="stringintdouble.htm">
+	<param name="Local" value="tableline.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="number.format">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="number.zerodivision">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="odbc">
+	<param name="Local" value="app3odbc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="offset">
+	<param name="Local" value="intdoublesql.htm">
+	<param name="Local" value="hashsql.htm">
+	<param name="Local" value="stringsql.htm">
+	<param name="Local" value="tablesql.htm">
+	<param name="Local" value="tableline.htm">
+	<param name="Local" value="tableoffset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="open">
+	<param name="Local" value="hashfileopen.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="operator *">
+	<param name="Local" value="definemethod.htm">
+	<param name="Local" value="opuserdefined.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="optimized-html">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="or *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="oracle">
+	<param name="Local" value="app3oracle.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="OUT *">
+	<param name="Local" value="app7.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="ownerDocument">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="paint *">
+	<param name="Local" value="imageclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="parentNode">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="parser.compile">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="parser.runtime">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="parser:// *">
+	<param name="Local" value="xdocparserprot.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="PARSER_VERSION">
+	<param name="Local" value="envpver.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="parser3.log">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="password *">
+	<param name="Local" value="mathcrypt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="path">
+	<param name="Local" value="cookierec.htm">
+	<param name="Local" value="app1.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="path *">
+	<param name="Local" value="filedirname.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="PCRE">
+	<param name="Local" value="app4.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Perl">
+	<param name="Local" value="app4.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="pgsql">
+	<param name="Local" value="app3pgsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="PI">
+	<param name="Local" value="mathstats.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="pid">
+	<param name="Local" value="statuspid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="pixel">
+	<param name="Local" value="imagepixel.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="PL/SQL *">
+	<param name="Local" value="app7.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="PNG *">
+	<param name="Local" value="imagemeasure.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="polybar">
+	<param name="Local" value="imagepolybar.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="polygon">
+	<param name="Local" value="imagepolygon.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="polyline">
+	<param name="Local" value="imagepolyline.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="pos">
+	<param name="Local" value="stringpos.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="POST *">
+	<param name="Local" value="formclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="PostgreSQL">
+	<param name="Local" value="app3pgsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="postmatch">
+	<param name="Local" value="stringmatch.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="postprocess">
+	<param name="Local" value="mainclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="pow">
+	<param name="Local" value="mathpow.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="prematch">
+	<param name="Local" value="stringmatch.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="previousSibling">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="printf *">
+	<param name="Local" value="stringformat.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="process">
+	<param name="Local" value="opprocess.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="process id *">
+	<param name="Local" value="statuspid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="PROCESSING_INSTRUCTION_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="profile *">
+	<param name="Local" value="statusclass.htm">
+	<param name="Local" value="statusmemory.htm">
+	<param name="Local" value="statusrusage.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="properties *">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="publicId">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="qtail">
+	<param name="Local" value="formqtail.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="query">
+	<param name="Local" value="requestquery.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="query *">
+	<param name="Local" value="tableselect.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="query tail *">
+	<param name="Local" value="formqtail.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="radians">
+	<param name="Local" value="matdegreesetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="random">
+	<param name="Local" value="mathrandom.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="rectangle">
+	<param name="Local" value="imagerectangle.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="refresh">
+	<param name="Local" value="responsefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="regexp">
+	<param name="Local" value="app4.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="regulary *">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="release">
+	<param name="Local" value="hashfilerelease.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="rem">
+	<param name="Local" value="oprem.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="remove *">
+	<param name="Local" value="hashdelete.htm">
+	<param name="Local" value="hashfiledelete.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="removeAttribute">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="removeAttributeNode">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="removeChild">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="rename *">
+	<param name="Local" value="filemove.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="replace">
+	<param name="Local" value="imagereplace.htm">
+	<param name="Local" value="stringreplace.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="replace *">
+	<param name="Local" value="stringmatchreplace.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="replaceChild">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="request">
+	<param name="Local" value="requestclass.htm">
+	<param name="Local" value="requestargv.htm">
+	<param name="Local" value="requestbody.htm">
+	<param name="Local" value="requestcharset.htm">
+	<param name="Local" value="requestdocroot.htm">
+	<param name="Local" value="requestquery.htm">
+	<param name="Local" value="requesturi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="request">
+	<param name="Local" value="requestclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="requestclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="request">
+	<param name="Local" value="requestargv.htm">
+	<param name="Local" value="requestbody.htm">
+	<param name="Local" value="requestcharset.htm">
+	<param name="Local" value="requestdocroot.htm">
+	<param name="Local" value="requestquery.htm">
+	<param name="Local" value="requesturi.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические поля">
+	<param name="Local" value="requestargv.htm">
+	<param name="Local" value="requestbody.htm">
+	<param name="Local" value="requestcharset.htm">
+	<param name="Local" value="requestdocroot.htm">
+	<param name="Local" value="requestquery.htm">
+	<param name="Local" value="requesturi.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="request:charset">
+	<param name="Local" value="app3mysql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="response">
+	<param name="Local" value="responseclass.htm">
+	<param name="Local" value="responsefields.htm">
+	<param name="Local" value="responsebody.htm">
+	<param name="Local" value="responsecharset.htm">
+	<param name="Local" value="responsedownload.htm">
+	<param name="Local" value="responseheaders.htm">
+	<param name="Local" value="responseclear.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="response">
+	<param name="Local" value="responseclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="responseclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="response">
+	<param name="Local" value="responseclear.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические методы">
+	<param name="Local" value="responseclear.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="response">
+	<param name="Local" value="responsefields.htm">
+	<param name="Local" value="responsebody.htm">
+	<param name="Local" value="responsecharset.htm">
+	<param name="Local" value="responsedownload.htm">
+	<param name="Local" value="responseheaders.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические поля">
+	<param name="Local" value="responsefields.htm">
+	<param name="Local" value="responsebody.htm">
+	<param name="Local" value="responsecharset.htm">
+	<param name="Local" value="responsedownload.htm">
+	<param name="Local" value="responseheaders.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="result">
+	<param name="Local" value="definemethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="rewrite *">
+	<param name="Local" value="install4iis_404rewrite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="right">
+	<param name="Local" value="stringltrt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="roll">
+	<param name="Local" value="dateroll.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="round">
+	<param name="Local" value="mathroundetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="RPC">
+	<param name="Local" value="requestbody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="rsplit *">
+	<param name="Local" value="stringsplit.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="rus">
+	<param name="Local" value="datecalendarweek.htm">
+	<param name="Local" value="datecalendarmonth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="rusage">
+	<param name="Local" value="statusrusage.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="save">
+	<param name="Local" value="filesave.htm">
+	<param name="Local" value="stringsave.htm">
+	<param name="Local" value="tablesave.htm">
+	<param name="Local" value="xdocsave.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="schedule *">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="scientific *">
+	<param name="Local" value="numlit.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="script *">
+	<param name="Local" value="parserscript.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="search-namespaces">
+	<param name="Local" value="xdocsearchns.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="second">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sector">
+	<param name="Local" value="imagesector.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="select">
+	<param name="Local" value="tableselect.htm">
+	<param name="Local" value="xnodeselect.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="selectBool">
+	<param name="Local" value="xnodeselectbool.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="selectNumber">
+	<param name="Local" value="xnodeselectnumber.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="selectSingle">
+	<param name="Local" value="xnodeselectsingle.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="selectString">
+	<param name="Local" value="xnodeselectstring.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="self">
+	<param name="Local" value="definemethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="send">
+	<param name="Local" value="charsets.htm">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="session">
+	<param name="Local" value="cookierec.htm">
+	<param name="Local" value="hashfilewrite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="set">
+	<param name="Local" value="tableoffset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="SET_имя[значение]">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="setAttribute">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="setAttributeNode">
+	<param name="Local" value="xnodedommethods.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="SetEnv *">
+	<param name="Local" value="install4apachecgi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="setter *">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sha1">
+	<param name="Local" value="mathsha1.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="shift *">
+	<param name="Local" value="tableoffset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sign">
+	<param name="Local" value="mathabssign.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sin">
+	<param name="Local" value="mathsinetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="size">
+	<param name="Local" value="filestat.htm">
+	<param name="Local" value="filefields.htm">
+	<param name="Local" value="tablecount.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="size *">
+	<param name="Local" value="imagelength.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="smtp.connect">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="smtp.execute">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sort">
+	<param name="Local" value="tablesort.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="source">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="specified">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="split">
+	<param name="Local" value="stringsplit.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sprintf *">
+	<param name="Local" value="stringformat.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sql">
+	<param name="Local" value="lesson4.htm">
+	<param name="Local" value="opconnect.htm">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="charsets.htm">
+	<param name="Local" value="datecreatestring.htm">
+	<param name="Local" value="intdoublesql.htm">
+	<param name="Local" value="filesql.htm">
+	<param name="Local" value="hashsql.htm">
+	<param name="Local" value="stringsql.htm">
+	<param name="Local" value="tablesql.htm">
+	<param name="Local" value="voidsql.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sql *">
+	<param name="Local" value="datesqlstring.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sql.connect">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sql.execute">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="SQLite">
+	<param name="Local" value="app3sqlite.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sql-string">
+	<param name="Local" value="datesqlstring.htm">
+	<param name="Local" value="filesqlstring.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sqrt">
+	<param name="Local" value="matsqrt.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="src">
+	<param name="Local" value="imagefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="SSI *">
+	<param name="Local" value="filecgiexec.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="stack">
+	<param name="Local" value="app6.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="stat">
+	<param name="Local" value="filestat.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Static fields and methods">
+	<param name="Local" value="stats.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="status">
+	<param name="Local" value="responsefields.htm">
+	<param name="Local" value="statusclass.htm">
+	<param name="Local" value="statusmemory.htm">
+	<param name="Local" value="statuspid.htm">
+	<param name="Local" value="statusrusage.htm">
+	<param name="Local" value="statustid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="status">
+	<param name="Local" value="statusclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="statusclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="status">
+	<param name="Local" value="statusmemory.htm">
+	<param name="Local" value="statuspid.htm">
+	<param name="Local" value="statusrusage.htm">
+	<param name="Local" value="statustid.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Поля">
+	<param name="Local" value="statusmemory.htm">
+	<param name="Local" value="statuspid.htm">
+	<param name="Local" value="statusrusage.htm">
+	<param name="Local" value="statustid.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="string">
+	<param name="Local" value="lesson6.htm">
+	<param name="Local" value="vars.htm">
+	<param name="Local" value="stringlit.htm">
+	<param name="Local" value="exprlit.htm">
+	<param name="Local" value="opis.htm">
+	<param name="Local" value="stringclass.htm">
+	<param name="Local" value="stringbase64c.htm">
+	<param name="Local" value="stringsql.htm">
+	<param name="Local" value="stringbase64m.htm">
+	<param name="Local" value="stringformat.htm">
+	<param name="Local" value="stringintdouble.htm">
+	<param name="Local" value="stringltrt.htm">
+	<param name="Local" value="stringlength.htm">
+	<param name="Local" value="stringmatch.htm">
+	<param name="Local" value="stringmatchreplace.htm">
+	<param name="Local" value="stringmid.htm">
+	<param name="Local" value="stringpos.htm">
+	<param name="Local" value="stringreplace.htm">
+	<param name="Local" value="stringsave.htm">
+	<param name="Local" value="stringsplit.htm">
+	<param name="Local" value="stringtrim.htm">
+	<param name="Local" value="stringuplow.htm">
+	<param name="Local" value="xdoccreatexml.htm">
+	<param name="Local" value="xdocstring.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="string">
+	<param name="Local" value="stringclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="stringclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="string">
+	<param name="Local" value="stringbase64m.htm">
+	<param name="Local" value="stringformat.htm">
+	<param name="Local" value="stringintdouble.htm">
+	<param name="Local" value="stringltrt.htm">
+	<param name="Local" value="stringlength.htm">
+	<param name="Local" value="stringmatch.htm">
+	<param name="Local" value="stringmatchreplace.htm">
+	<param name="Local" value="stringmid.htm">
+	<param name="Local" value="stringpos.htm">
+	<param name="Local" value="stringreplace.htm">
+	<param name="Local" value="stringsave.htm">
+	<param name="Local" value="stringsplit.htm">
+	<param name="Local" value="stringtrim.htm">
+	<param name="Local" value="stringuplow.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="stringbase64m.htm">
+	<param name="Local" value="stringformat.htm">
+	<param name="Local" value="stringintdouble.htm">
+	<param name="Local" value="stringltrt.htm">
+	<param name="Local" value="stringlength.htm">
+	<param name="Local" value="stringmatch.htm">
+	<param name="Local" value="stringmatchreplace.htm">
+	<param name="Local" value="stringmid.htm">
+	<param name="Local" value="stringpos.htm">
+	<param name="Local" value="stringreplace.htm">
+	<param name="Local" value="stringsave.htm">
+	<param name="Local" value="stringsplit.htm">
+	<param name="Local" value="stringtrim.htm">
+	<param name="Local" value="stringuplow.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="string">
+	<param name="Local" value="stringbase64c.htm">
+	<param name="Local" value="stringsql.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические методы">
+	<param name="Local" value="stringbase64c.htm">
+	<param name="Local" value="stringsql.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="sub">
+	<param name="Local" value="hashsub.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="subject">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="substring *">
+	<param name="Local" value="stringmid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="switch">
+	<param name="Local" value="opswitch.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="systemId">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="tableclass.htm">
+	<param name="Local" value="tablecreate.htm">
+	<param name="Local" value="tablecreateclone.htm">
+	<param name="Local" value="tableload.htm">
+	<param name="Local" value="tablesql.htm">
+	<param name="Local" value="tableoptionsfmt.htm">
+	<param name="Local" value="tablecopylocateoptions.htm">
+	<param name="Local" value="tablefields.htm">
+	<param name="Local" value="tablehash.htm">
+	<param name="Local" value="tableappend.htm">
+	<param name="Local" value="tablecolumns.htm">
+	<param name="Local" value="tablecount.htm">
+	<param name="Local" value="tableflip.htm">
+	<param name="Local" value="table2hash.htm">
+	<param name="Local" value="tablejoin.htm">
+	<param name="Local" value="tablelocate.htm">
+	<param name="Local" value="tablemenu.htm">
+	<param name="Local" value="tableline.htm">
+	<param name="Local" value="tableoffset.htm">
+	<param name="Local" value="tablesave.htm">
+	<param name="Local" value="tableselect.htm">
+	<param name="Local" value="tablesort.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="tableclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="tableclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="tablecreate.htm">
+	<param name="Local" value="tablecreateclone.htm">
+	<param name="Local" value="tableload.htm">
+	<param name="Local" value="tablesql.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Конструкторы">
+	<param name="Local" value="tablecreate.htm">
+	<param name="Local" value="tablecreateclone.htm">
+	<param name="Local" value="tableload.htm">
+	<param name="Local" value="tablesql.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="tableappend.htm">
+	<param name="Local" value="tablecolumns.htm">
+	<param name="Local" value="tablecount.htm">
+	<param name="Local" value="tableflip.htm">
+	<param name="Local" value="table2hash.htm">
+	<param name="Local" value="tablejoin.htm">
+	<param name="Local" value="tablelocate.htm">
+	<param name="Local" value="tablemenu.htm">
+	<param name="Local" value="tableline.htm">
+	<param name="Local" value="tableoffset.htm">
+	<param name="Local" value="tablesave.htm">
+	<param name="Local" value="tableselect.htm">
+	<param name="Local" value="tablesort.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="tableappend.htm">
+	<param name="Local" value="tablecolumns.htm">
+	<param name="Local" value="tablecount.htm">
+	<param name="Local" value="tableflip.htm">
+	<param name="Local" value="table2hash.htm">
+	<param name="Local" value="tablejoin.htm">
+	<param name="Local" value="tablelocate.htm">
+	<param name="Local" value="tablemenu.htm">
+	<param name="Local" value="tableline.htm">
+	<param name="Local" value="tableoffset.htm">
+	<param name="Local" value="tablesave.htm">
+	<param name="Local" value="tableselect.htm">
+	<param name="Local" value="tablesort.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="tablecopylocateoptions.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Опции копирования и поиска">
+	<param name="Local" value="tablecopylocateoptions.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="tableoptionsfmt.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Опции формата файла">
+	<param name="Local" value="tableoptionsfmt.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="tablefields.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Получение содержимого столбца">
+	<param name="Local" value="tablefields.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table">
+	<param name="Local" value="tablehash.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Получение содержимого текущей строки в виде хеша">
+	<param name="Local" value="tablehash.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="table *">
+	<param name="Local" value="hashfieldsfield.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="tables">
+	<param name="Local" value="formtables.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="tagName">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="taint">
+	<param name="Local" value="tainting.htm">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="tan">
+	<param name="Local" value="mathsinetc.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="target">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="text">
+	<param name="Local" value="filefields.htm">
+	<param name="Local" value="filesave.htm">
+	<param name="Local" value="imagetext.htm">
+	<param name="Local" value="mailsend.htm">
+	<param name="Local" value="xdocfile.htm">
+	<param name="Local" value="xdocsave.htm">
+	<param name="Local" value="xdocstring.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="TEXT_NODE">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="thick *">
+	<param name="Local" value="imagestylewidth.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="thread id *">
+	<param name="Local" value="statustid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="throw">
+	<param name="Local" value="exceptions.htm">
+	<param name="Local" value="opthrow.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="thumbnail *">
+	<param name="Local" value="imagemeasure.htm">
+	<param name="Local" value="imagehtml.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="tid">
+	<param name="Local" value="statustid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="time_t *">
+	<param name="Local" value="dateunixtscreate.htm">
+	<param name="Local" value="dateunixts.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="to">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="transform">
+	<param name="Local" value="lesson6.htm">
+	<param name="Local" value="xdoctransform.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="trim">
+	<param name="Local" value="stringtrim.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="true">
+	<param name="Local" value="boollit.htm">
+	<param name="Local" value="hashsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="trunc">
+	<param name="Local" value="mathtruncfrac.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="try">
+	<param name="Local" value="exceptions.htm">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="type">
+	<param name="Local" value="optry.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="TZ">
+	<param name="Local" value="datefields.htm">
+	<param name="Local" value="dateroll.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="uid64">
+	<param name="Local" value="mathuid64.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="unhandled_exception">
+	<param name="Local" value="exceptions.htm">
+	<param name="Local" value="exceptionunhandled.htm">
+	<param name="Local" value="parserconfmethod.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="unicode">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="union">
+	<param name="Local" value="hashunion.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="unix socket">
+	<param name="Local" value="app3mysql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="unix-timestamp">
+	<param name="Local" value="dateunixtscreate.htm">
+	<param name="Local" value="dateunixts.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="untaint">
+	<param name="Local" value="tainting.htm">
+	<param name="Local" value="opuntainttaint.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="upper">
+	<param name="Local" value="stringuplow.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="upsize *">
+	<param name="Local" value="stringsave.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="uri">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="requesturi.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="USD *">
+	<param name="Local" value="xdocload.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="USE">
+	<param name="Local" value="defineclass.htm">
+	<param name="Local" value="opuse.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="used">
+	<param name="Local" value="statusmemory.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="USER-AGENT *">
+	<param name="Local" value="envhttpfield.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="UTF-8">
+	<param name="Local" value="charsets.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="uuid">
+	<param name="Local" value="mathuuid.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="void">
+	<param name="Local" value="voidclass.htm">
+	<param name="Local" value="voidsql.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="void">
+	<param name="Local" value="voidclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="voidclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="void">
+	<param name="Local" value="voidsql.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="voidsql.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="week">
+	<param name="Local" value="datefields.htm">
+	<param name="Local" value="datecalendarweek.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="weekday">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="weekyear">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="while">
+	<param name="Local" value="opwhile.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="white-space">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="width">
+	<param name="Local" value="imagefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="word">
+	<param name="Local" value="installcharset.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="lesson6.htm">
+	<param name="Local" value="xdocclass.htm">
+	<param name="Local" value="xdoccreatexml.htm">
+	<param name="Local" value="xdoccreateempty.htm">
+	<param name="Local" value="xdoccreatefile.htm">
+	<param name="Local" value="xdocload.htm">
+	<param name="Local" value="xdocparserprot.htm">
+	<param name="Local" value="xdocuriparam.htm">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xdocfile.htm">
+	<param name="Local" value="xdocsave.htm">
+	<param name="Local" value="xdocstring.htm">
+	<param name="Local" value="xdoctransform.htm">
+	<param name="Local" value="xdocoptions.htm">
+	<param name="Local" value="xdocdomfields.htm">
+	<param name="Local" value="xdocsearchns.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="xdocparserprot.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="parser://метод/параметр. Чтение XML из произвольного источника">
+	<param name="Local" value="xdocparserprot.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="xdocclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="xdocclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="xdoccreatexml.htm">
+	<param name="Local" value="xdoccreateempty.htm">
+	<param name="Local" value="xdoccreatefile.htm">
+	<param name="Local" value="xdocload.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Конструкторы">
+	<param name="Local" value="xdoccreatexml.htm">
+	<param name="Local" value="xdoccreateempty.htm">
+	<param name="Local" value="xdoccreatefile.htm">
+	<param name="Local" value="xdocload.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xdocfile.htm">
+	<param name="Local" value="xdocsave.htm">
+	<param name="Local" value="xdocstring.htm">
+	<param name="Local" value="xdoctransform.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="xdocdommethods.htm">
+	<param name="Local" value="xdocfile.htm">
+	<param name="Local" value="xdocsave.htm">
+	<param name="Local" value="xdocstring.htm">
+	<param name="Local" value="xdoctransform.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="xdocuriparam.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Параметр создания нового документа: Базовый путь">
+	<param name="Local" value="xdocuriparam.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="xdocoptions.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Параметры преобразования документа в текст">
+	<param name="Local" value="xdocoptions.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xdoc">
+	<param name="Local" value="xdocdomfields.htm">
+	<param name="Local" value="xdocsearchns.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Поля">
+	<param name="Local" value="xdocdomfields.htm">
+	<param name="Local" value="xdocsearchns.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="XHTML">
+	<param name="Local" value="xdocoptions.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="x-mailer">
+	<param name="Local" value="mailsend.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="XML">
+	<param name="Local" value="lesson6.htm">
+	<param name="Local" value="opuntainttaint.htm">
+	<param name="Local" value="optry.htm">
+	<param name="Local" value="xdocclass.htm">
+	<param name="Local" value="xdocfile.htm">
+	<param name="Local" value="xdocsave.htm">
+	<param name="Local" value="xdocstring.htm">
+	<param name="Local" value="xnodeclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xml:base">
+	<param name="Local" value="xdocuriparam.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="XML-RPC">
+	<param name="Local" value="requestbody.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xnode">
+	<param name="Local" value="lesson6.htm">
+	<param name="Local" value="xnodeclass.htm">
+	<param name="Local" value="xnodedommethods.htm">
+	<param name="Local" value="xnodeselect.htm">
+	<param name="Local" value="xnodeselectsingle.htm">
+	<param name="Local" value="xnodeselectstring.htm">
+	<param name="Local" value="xnodeselectnumber.htm">
+	<param name="Local" value="xnodeselectbool.htm">
+	<param name="Local" value="xnodedomfields.htm">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xnode">
+	<param name="Local" value="xnodeclass.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Класс">
+	<param name="Local" value="xnodeclass.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xnode">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Константы">
+	<param name="Local" value="dom_nodetype.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xnode">
+	<param name="Local" value="xnodedommethods.htm">
+	<param name="Local" value="xnodeselect.htm">
+	<param name="Local" value="xnodeselectsingle.htm">
+	<param name="Local" value="xnodeselectstring.htm">
+	<param name="Local" value="xnodeselectnumber.htm">
+	<param name="Local" value="xnodeselectbool.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Методы">
+	<param name="Local" value="xnodedommethods.htm">
+	<param name="Local" value="xnodeselect.htm">
+	<param name="Local" value="xnodeselectsingle.htm">
+	<param name="Local" value="xnodeselectstring.htm">
+	<param name="Local" value="xnodeselectnumber.htm">
+	<param name="Local" value="xnodeselectbool.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xnode">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Поля">
+	<param name="Local" value="xnodedomfields.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xor *">
+	<param name="Local" value="exprops.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="XPath">
+	<param name="Local" value="lesson6.htm">
+	<param name="Local" value="xnodeclass.htm">
+	<param name="Local" value="xnodeselect.htm">
+	<param name="Local" value="xnodeselectsingle.htm">
+	<param name="Local" value="xnodeselectstring.htm">
+	<param name="Local" value="xnodeselectnumber.htm">
+	<param name="Local" value="xnodeselectbool.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="XPath *">
+	<param name="Local" value="xdocsearchns.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xsl:output …">
+	<param name="Local" value="xdocoptions.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="xsl:param *">
+	<param name="Local" value="xdoctransform.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="XSLT">
+	<param name="Local" value="lesson6.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="year">
+	<param name="Local" value="datefields.htm">
+	<param name="Local" value="dateroll.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="yearday">
+	<param name="Local" value="datefields.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Зеленые рукава *">
+	<param name="Local" value="stringbase64c.htm">
+	<param name="Local" value="stringbase64m.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="опции формата">
+	<param name="Local" value="tablecreate.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="отпечаток *">
+	<param name="Local" value="filemd5m.htm">
+	<param name="Local" value="filemd5.htm">
+	<param name="Local" value="mathmd5.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="память *">
+	<param name="Local" value="memoryclass.htm">
+	<param name="Local" value="statusclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="свойства *">
+	<param name="Local" value="props.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Статические поля и методы">
+	<param name="Local" value="stats.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="статус *">
+	<param name="Local" value="statusclass.htm">
+	</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="точки изображения *">
+	<param name="Local" value="imagepixel.htm">
+	</OBJECT>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,100 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="">
+    <title>foreach. Последовательный перебор всех строк таблицы</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>foreach. Последовательный перебор всех строк таблицы</b><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>&nbsp;&nbsp;&nbsp;</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>[3.</i></b><b><i>4</i></b><b><i>.</i></b><b><i>3</i></b><b><i>]</i></b></span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>
+<br>
+</b></span></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^таблица.foreach[позиция</b><b>;</b><b>значение]{код}&nbsp;&nbsp;
+<br>
+^таблица.foreach[позиция</b><b>;</b><b>значение]{код}</b><b>[</b><b>разделитель</b><b>]</b><b>
+<br>
+^таблица.foreach[позиция</b><b>;</b><b>значение]{код}</b><b>{</b><b>разделитель</b><b>}</b><b>
+<br>
+</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Перебирает все строки таблицы.</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000"> </span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Метод аналогичен </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=hashforeach.htm>foreach</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> класса </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=hashclass.htm>hash</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>позиция</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - имя переменной, которая возвращает номер строки (отсчёт начинается с 0)
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>значение</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - имя переменной, которая возвращает текущую строку
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>тело</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - код, исполняемый для каждой строки
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>разделитель</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - код, который вставляется перед каждым непустым не первым телом
+<br>
+
+<br>
+<i>Замечание</i><i>: </i><i>если разделитель задан в виде кода, то этот код выполняется после следующего не пустого тела цикла.</i><i>
+<br>
+</i><i>Замечание: для уменьшения расхода памяти и ускорения в переменной </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><i>значение</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i> возаращается не отдельная строка, а вся таблица, у которой установлена текущая строка.</i>
+<br>
+
+<br>
+В любой момент можно принудительно выйти из цикла с помошью оператора </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><a href=opbreak.htm>break</a></b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, или принудительно закончить текущую итерацию и перейти к следующей с помощью оператора </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><a href=opcontinue.htm>continue</a></b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример
+<br>
+</b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$man[^table::create{name&nbsp;&nbsp;&nbsp;value
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>name&nbsp;&nbsp;&nbsp;Вася</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>age&nbsp;&nbsp;&nbsp;22</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>sex&nbsp;&nbsp;&nbsp;m</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+}]
+<br>
+^man.foreach[pos;row]{
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>&nbsp;&nbsp;&nbsp;$pos&nbsp;$row.name</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>=</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$row.value
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>}[</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>&lt;br&nbsp;/&gt;</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>]
+<br>
+</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Выведет на экран:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>0&nbsp;name=Вася
+<br>
+1&nbsp;age=22
+<br>
+2&nbsp;sex=m
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 22.10.2013</font></td>
+</tr>
+</table>
+</body>
+</html>

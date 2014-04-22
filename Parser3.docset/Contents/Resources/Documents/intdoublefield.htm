@@ -1,0 +1,125 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="int,int, Методы,double,double, Методы,bool,bool, Методы">
+    <title>int, double, bool. Преобразование объектов к числам или bool</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>int, double, bool. Преобразование объектов к числам или bool
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b><table border="0" cellpadding="1"><tr><td align="left" valign="top" width="117">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^имя.int[]</b>
+<br>
+</span></td><td align="left" valign="top" width="73">
+<p align="center"><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">или<span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></span></p></td><td align="left" valign="top" width="179">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^имя.int(default)</b>
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="117">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^имя.double[]</b>
+<br>
+</span></td><td align="left" valign="top" width="73">
+<p align="center"><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">или<span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></span></p></td><td align="left" valign="top" width="179">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^имя.double(default)</b>
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="117">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^</b><b>имя</b><b>.bool[]</b>
+<br>
+</span></td><td align="left" valign="top" width="73">
+<p align="center"><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">или<span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></span></p></td><td align="left" valign="top" width="179">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^</b><b>имя</b><b>.bool(true|false)</b>
+<br>
+</span></td></tr></table>
+<br>
+</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Преобразуют значение переменной </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$имя</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> к целому, вещественному числу или bool соответственно, и возвращает это значение. При преобразовании вещественного числа к целому дробная часть отбрасывается. 
+<br>
+
+<br>
+Можно задать значение по умолчанию, которое будет получено, если преобразование невозможно, строка пуста или состоит только из "white spaces" (символы пробела, табуляция, перевода строки). 
+<br>
+
+<br>
+Можно задать значение по умолчанию, которое будет получено, если преобразование невозможно. Значение по умолчанию можно использовать при обработке данных, получаемых интерактивно от пользователей. Это позволит избежать появления текстовых значений в математических выражениях при вводе некорректных данных, например, строки вместо ожидаемого числа.
+<br>
+
+<br>
+Метод </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>bool</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> умеет преобразовать в </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=boolclass.htm>bool</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> строки, содержащие числа (значение 0 будет преобразовано в </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>false</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, не 0 - в </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>true</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">), а также строки, содержащие значения "</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>true</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">" и "</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>false</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">" (без учёта регистра). При применении метода </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>bool</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> к числам, любое не нулевое значение будет преобразовано в </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>true</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, нулевое - в </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>false</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+
+<br>
+<i>Внимание: использование пустой строки в математических </i><i><a href=stringclass.htm>выражениях</a></i><i> не является ошибкой, ее значение считается нулем.</i><i>
+<br>
+</i><i>Внимание: преобразование строки, не являющейся целым числом к целому числу является ошибкой (пример: строка «1.5» не является целым числом).
+<br>
+</i>
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Примеры</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$str[</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Штука</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>]
+<br>
+^str.int(</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>1024</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>)</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Выведет число </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>1024</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, поскольку объект </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>str</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> нельзя преобразовать к классу </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>int</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+
+<br>
+
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$double(1.5)
+<br>
+^double.int[]</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+Выведет число </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>1</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, поскольку дробная часть будет отброшена.
+<br>
+
+<br>
+
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>^if(^form:search_in_text.bool(false)){
+<br>
+&nbsp;&nbsp;&nbsp;</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>...ищем&nbsp;в&nbsp;тексте...</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+}
+<br>
+</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 24.09.2011</font></td>
+</tr>
+</table>
+</body>
+</html>

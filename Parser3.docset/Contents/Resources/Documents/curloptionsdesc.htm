@@ -1,0 +1,929 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="">
+    <title>Опции работы с библиотекой cURL</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:Arial; font-size:12pt; color:#000000"><b>Опции работы с библиотекой cURL
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">В качестве опций у методов <b>^curl:</b><b><a href=curloptions.htm>options</a></b><b>[]</b> и <b>^curl:</b><b><a href=curlload.htm>load</a></b><b>[]</b> можно указывать любую из опций, доступную у установленной на вашей системе библиотеки libcurl (см. <a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html" target="_blank">документацию</a>). Имена опций нужно писать в нижнем регистре и без префикса CURLOPT_.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Кроме этого поддерживаются следующие опции Parser:</span><span style="font-family:Arial; font-size:10pt; color:#000000">&nbsp;&nbsp;&nbsp;</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><table border="1" cellpadding="1"><tr><td align="left" valign="top" width="227">
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>Опция</i></b><b>
+<br>
+</b></span></td><td align="left" valign="top" width="188">
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>По-умолчанию</i></b><b>
+<br>
+</b></span></td><td align="left" valign="top" width="212">
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>Значение</i></b><span style="font-family:MS Sans Serif; font-size:8pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="227">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.library[</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">/путь/к/libcurl.so</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>]</b></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="188">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">unix<span style="font-family:Arial; font-size:8pt; color:#000000">&nbsp;&nbsp;&nbsp;- </span><span style="font-family:Monospace; font-size:8pt; color:#000000">libcurl.so
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">win32</span><span style="font-family:Arial; font-size:8pt; color:#000000">&nbsp;&nbsp;&nbsp;- </span><span style="font-family:Monospace; font-size:8pt; color:#000000">libcurl.dll</span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="212">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">Полный дисковый путь к динамической библиотеке libcurl в вашей системе.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="227">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.charset[</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">кодировка</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="188">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">берется из заголовка HTTP-ответа<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="212">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">Кодировка документов на удаленном сервере. В эту кодировку перекодируется строка запроса, и из неё же перекодируется ответ сервера.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="227">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.response-charset[</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">кодировка</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>]</b>
+<br>
+</span></span></td><td align="left" valign="top" width="188">
+<span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></td><td align="left" valign="top" width="212">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">Принудительно указывает, в какой кодировке был получен ответ от сервера<span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="227">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.name[</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">имя файла</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>]</b></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="188">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">NONAME.DAT<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="212">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">Имя файла создаваемого объекта класса file.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="227">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.mode[</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">text|binary</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>]</b></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="188">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">text<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="212">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">Тип создаваемого объекта класса file.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="227">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.content-type[</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">CONTENT-TYPE</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="188">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">берется из заголовка HTTP-ответа<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="212">
+<span style="font-family:FreeSetC,Arial; font-size:8pt; color:#000000">Поле content-type создаваемого объекта класса file.<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr></table>
+<br>
+</span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+Поддерживаемые опции libcurl в алфавитном порядке:
+<br>
+<table border="1" cellpadding="1"><tr><td align="left" valign="top" width="139">
+<p align="center"><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b><i>Название</i></b><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></p></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b><i>Тип</i></b><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></p></td><td align="left" valign="top" width="200">
+<p align="center"><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b><i>Аналог в </i></b><b><i>libcurl</i></b><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></p></td><td align="left" valign="top" width="216">
+<p align="center"><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b><i>Описание</i></b><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></p></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">accept_encoding
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTACCEPTENCODING" target="_blank">CURLOPT_ACCEPT_ENCODING</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Метод упаковки ответа: gzip или deflate. (Старое название параметра - encoding - тоже поддерживается.)<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">autoreferer
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTAUTOREFERER" target="_blank">CURLOPT_AUTOREFERER</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Автоматически создавать заголовок Referer.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">cainfo
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCAINFO" target="_blank">CURLOPT_CAINFO</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">capath
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCAPATH" target="_blank">CURLOPT_CAPATH</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">connecttimeout
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCONNECTTIMEOUT" target="_blank">CURLOPT_CONNECTTIMEOUT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Таймаут ожидания соединения в секундах.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">connecttimeout_ms
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCONNECTTIMEOUTMS" target="_blank">CURLOPT_CONNECTTIMEOUT_MS</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Таймаут ожидания соединения в миллисекундах.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">cookie
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCOOKIE" target="_blank">CURLOPT_COOKIE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Строка с куками.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">cookielist
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCOOKIELIST" target="_blank">CURLOPT_COOKIELIST</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Строка с куками (про отличия от cookie см. в документации по libcurl)<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">cookiesession
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCOOKIESESSION" target="_blank">CURLOPT_COOKIESESSION</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Поставить куки на всю сессию.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">copypostfields
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>, <a href=fileclass.htm>file</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCOPYPOSTFIELDS" target="_blank">CURLOPT_COPYPOSTFIELDS</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Тело пост-запроса (с копированием).<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">crlfile
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCRLFILE" target="_blank">CURLOPT_CRLFILE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">customrequest
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTCUSTOMREQUEST" target="_blank">CURLOPT_CUSTOMREQUEST</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Другой http-метод.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">failonerror
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTFAILONERROR" target="_blank">CURLOPT_FAILONERROR</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Выдавать ошибку, если http-статус больше или равен 400.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">followlocation
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTFOLLOWLOCATION" target="_blank">CURLOPT_FOLLOWLOCATION</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Обрабатывать редиректы в ответе сервера.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">forbid_reuse
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTFORBIDREUSE" target="_blank">CURLOPT_FORBID_REUSE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">fresh_connect
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTFRESHCONNECT" target="_blank">CURLOPT_FRESH_CONNECT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Создавать новое соединение при каждом запросе в сессии.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">http_content_decoding
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTHTTPCONTENTDECODING" target="_blank">CURLOPT_HTTP_CONTENT_DECODING</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">http_transfer_decoding
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTHTTPTRANSFERDECODING" target="_blank">CURLOPT_HTTP_TRANSFER_DECODING</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">httpauth
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTHTTPAUTH" target="_blank">CURLOPT_HTTPAUTH</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Тип http-авторизации (CURLAUTH_NONE = 0, CURLAUTH_BASIC = (1&lt;&lt;0), CURLAUTH_DIGEST = (1&lt;&lt;1), CURLAUTH_GSSNEGOTIATE = (1&lt;&lt;2), CURLAUTH_NTLM = (1&lt;&lt;3), CURLAUTH_DIGEST_IE = (1&lt;&lt;4), CURLAUTH_NTLM_WB = (1&lt;&lt;5), CURLAUTH_ONLY = (1&lt;&lt;31), CURLAUTH_ANY = (~CURLAUTH_DIGEST_IE), CURLAUTH_ANYSAFE = (~(CURLAUTH_BASIC|CURLAUTH_DIGEST_IE))).<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">httpget
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTHTTPGET" target="_blank">CURLOPT_HTTPGET</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Передать запрос методом GET.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">httpheader
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=hashclass.htm>hash</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTHTTPHEADER" target="_blank">CURLOPT_HTTPHEADER</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">HTTP-заголовки запроса.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">httppost
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=hashclass.htm>hash</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTHTTPPOST" target="_blank">CURLOPT_HTTPPOST</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Поля post-запроса, заданные аналогично полю form для file::load.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">httpproxytunnel
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTHTTPPROXYTUNNEL" target="_blank">CURLOPT_HTTPPROXYTUNNEL</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Включить тунелирование запросов через прокси.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">ignore_content_length
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTIGNORECONTENTLENGTH" target="_blank">CURLOPT_IGNORE_CONTENT_LENGTH</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Игнорировать заголовок Content-Length ответа сервера.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">interface
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTINTERFACE" target="_blank">CURLOPT_INTERFACE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя сетевого интерфейса.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">ipresolve<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTIPRESOLVE" target="_blank">CURLOPT_IPRESOLVE</a></u></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">1 - использовать IPv4 (по умолчанию), 2 - использовать IPv6.<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">issuercert
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTISSUERCERT" target="_blank">CURLOPT_ISSUERCERT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя файла с сертификатом CA.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">keypasswd
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTKEYPASSWD" target="_blank">CURLOPT_KEYPASSWD</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Пароль для ключа (passphrase).<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr></table>
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><table border="1" cellpadding="1"><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">localport
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTLOCALPORT" target="_blank">CURLOPT_LOCALPORT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Локальный порт.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">low_speed_limit
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTLOWSPEEDLIMIT" target="_blank">CURLOPT_LOW_SPEED_LIMIT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Минимальная скорость передачи (байт/сек).<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">low_speed_time
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTLOWSPEEDTIME" target="_blank">CURLOPT_LOW_SPEED_TIME</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Максимальное время, когда скорость передачи может быть меньше low_speed_limit.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">maxconnects
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTMAXCONNECTS" target="_blank">CURLOPT_MAXCONNECTS</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Максимальное количество постоянных соединений в рамках сессии.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">maxfilesize
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTMAXFILESIZE" target="_blank">CURLOPT_MAXFILESIZE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Максимальный размер ответа в байтах.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">maxredirs
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTMAXREDIRS" target="_blank">CURLOPT_MAXREDIRS</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Максимальное число редиректов.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">nobody
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTNOBODY" target="_blank">CURLOPT_NOBODY</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Передать запрос методом HEAD.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">password
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPASSWORD" target="_blank">CURLOPT_PASSWORD</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Пароль.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">port
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPORT" target="_blank">CURLOPT_PORT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Порт.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">post
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPOST" target="_blank">CURLOPT_POST</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Передать запрос методом POST.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">postfields
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>, <a href=fileclass.htm>file</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPOSTFIELDS" target="_blank">CURLOPT_POSTFIELDS</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Тело post-запроса.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">postredir
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPOSTREDIR" target="_blank">CURLOPT_POSTREDIR</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">proxy
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPROXY" target="_blank">CURLOPT_PROXY</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Адрес прокси-сервера.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">proxyauth
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPROXYAUTH" target="_blank">CURLOPT_PROXYAUTH</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Тип авторизации (см. параметр httpauth).<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">proxyport
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPROXYPORT" target="_blank">CURLOPT_PROXYPORT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Порт прокси-сервера.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">proxytype
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPROXYTYPE" target="_blank">CURLOPT_PROXYTYPE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Тип прокси (CURLPROXY_HTTP = 0, CURLPROXY_HTTP_1_0 = 1, CURLPROXY_SOCKS4 = 4, CURLPROXY_SOCKS5 = 5, CURLPROXY_SOCKS4A = 6, CURLPROXY_SOCKS5_HOSTNAME = 7).<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">proxyuserpwd
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTPROXYUSERPWD" target="_blank">CURLOPT_PROXYUSERPWD</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя пользователя и пароль для прокси.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">range
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTRANGE" target="_blank">CURLOPT_RANGE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Вернуть части ответа, находящиеся в указанном диапазоне.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">referer
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTREFERER" target="_blank">CURLOPT_REFERER</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Заголовок Referer.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">ssl_cipher_list
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLCIPHERLIST" target="_blank">CURLOPT_SSL_CIPHER_LIST</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">ssl_sessionid_cache
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLSESSIONIDCACHE" target="_blank">CURLOPT_SSL_SESSIONID_CACHE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Включить SSL session-ID кеш.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">ssl_verifyhost
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLVERIFYHOST" target="_blank">CURLOPT_SSL_VERIFYHOST</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Проверять сертификат хоста.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">ssl_verifypeer
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLVERIFYPEER" target="_blank">CURLOPT_SSL_VERIFYPEER</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Проверять сертификат пира.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">sslcert
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLCERT" target="_blank">CURLOPT_SSLCERT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя файла с SSL-сертификатом.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">sslcerttype
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLCERTTYPE" target="_blank">CURLOPT_SSLCERTTYPE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Тип ssl-сертификата.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">sslengine
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLENGINE" target="_blank">CURLOPT_SSLENGINE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">sslengine_default
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLENGINEDEFAULT" target="_blank">CURLOPT_SSLENGINE_DEFAULT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">См. документацию по libcurl.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">sslkey
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLKEY" target="_blank">CURLOPT_SSLKEY</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя файла с SSL-ключом.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">sslkeytype
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSSLKEYTYPE" target="_blank">CURLOPT_SSLKEYTYPE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Тип ssl-ключа.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">stderr
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTSTDERR" target="_blank">CURLOPT_STDERR</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя файла в который будет переадресован вывод из stderr.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">timeout
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTTIMEOUT" target="_blank">CURLOPT_TIMEOUT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Таймаут с секундах.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">timeout_ms
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTTIMEOUTMS" target="_blank">CURLOPT_TIMEOUT_MS</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Таймаутах в миллисекундах.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">unrestricted_auth
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTUNRESTRICTEDAUTH" target="_blank">CURLOPT_UNRESTRICTED_AUTH</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Повторно отсылать параметры http-авторизации, если при редиректе сменилось имя сервера.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">url
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTURL" target="_blank">CURLOPT_URL</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">URL-адрес.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">useragent
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTUSERAGENT" target="_blank">CURLOPT_USERAGENT</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Заголовок User-Agent.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">username
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTUSERNAME" target="_blank">CURLOPT_USERNAME</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя пользователя.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">userpwd
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=stringclass.htm>string</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTUSERPWD" target="_blank">CURLOPT_USERPWD</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Имя пользователя и пароль.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="139">
+<span style="font-family:Arial; font-size:10pt; color:#000000">verbose
+<br>
+</span></td><td align="left" valign="top" width="66">
+<p align="center"><span style="font-family:Arial; font-size:10pt; color:#000000"><a href=intdoubleclasses.htm>int</a>
+<br>
+</span></p></td><td align="left" valign="top" width="200">
+<span style="font-family:Arial; font-size:8pt; color:#000000"><span style="font-family:Arial; font-size:8pt; color:#0000FF"><u><a href="http://curl.haxx.se/libcurl/c/curl_easy_setopt.html#CURLOPTVERBOSE" target="_blank">CURLOPT_VERBOSE</a></u></span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td><td align="left" valign="top" width="216">
+<span style="font-family:Arial; font-size:8pt; color:#000000">Выводить подробную информацию в процессе обработки запроса в stderr.<span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr></table>
+<br>
+</span><span style="font-family:Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 01.11.2013</font></td>
+</tr>
+</table>
+</body>
+</html>

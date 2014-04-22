@@ -1,0 +1,108 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="compile,CVS,make *">
+    <title>Получение исходных кодов</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Получение исходных кодов
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Исходные коды Parser3 можно скачать из раздела «<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#0000FF"><u><a href="http://www.parser.ru/download/src/" target="_blank">Скачать</a></u></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">» с сервера parser.ru или получить из CVS:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">cvs&nbsp;-d&nbsp;:pserver:anonymous@cvs.parser.ru:/parser3project&nbsp;login
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Пароль пустой.
+<br>
+
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">cvs&nbsp;-d&nbsp;:pserver:anonymous@cvs.parser.ru:/parser3project&nbsp;get&nbsp;-r&nbsp;имя_ветки&nbsp;имя_модуля
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">Имя_ветки</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - если не указывать </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>-r</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, вы получите текущую разрабатываемую версию (HEAD).
+<br>
+Для получения стабильной версии, забирайте ветку «</span><span style="font-family:Monospace; font-size:10pt; color:#000000">release_3_X_X</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">» (например: </span><span style="font-family:Monospace; font-size:10pt; color:#000000">release_3_4_3</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">).
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b>Имя&nbsp;модуля</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">:</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Имя основного модуля: </span><span style="font-family:Monospace; font-size:10pt; color:#000000">parser3<b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Модуль, необходимый для сборки Parser3 и SQL драйверов под Windows: </span><span style="font-family:Monospace; font-size:10pt; color:#000000">win32</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+Модуль с SQL драйверами: </span><span style="font-family:Monospace; font-size:10pt; color:#000000">sql</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+Сейчас в нем доступны каталоги:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">sql/mysql
+<br>
+sql/pgsql
+<br>
+sql/oracle
+<br>
+sql/odbc
+<br>
+sql/sqlite
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Дла сборки SQL драйверов необходимо наличие исходников Parser3 и, т.к. </span><span style="font-family:Monospace; font-size:10pt; color:#000000">.h</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> файлы ищутся по относительным путям, структура каталогов должна быть следующей:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+parser3project&nbsp;&nbsp;&lt;-&nbsp;</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">директория, где вы решили положить исходники</span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+&nbsp;&nbsp;|
+<br>
+&nbsp;&nbsp;+-parser3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;-&nbsp;</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">исходники парсера</span><span style="font-family:Monospace; font-size:10pt; color:#000000">&nbsp;
+<br>
+&nbsp;&nbsp;|
+<br>
+&nbsp;&nbsp;+-sql
+<br>
+&nbsp;&nbsp;|&nbsp;&nbsp;+-mysql&nbsp;&nbsp;&nbsp;&nbsp;&lt;-&nbsp;</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">исходники драйвера mysql</span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+&nbsp;&nbsp;|&nbsp;&nbsp;+-...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;-&nbsp;</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">исходники других необходимых вам драйверов
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">&nbsp;&nbsp;|
+<br>
+&nbsp;&nbsp;+-win32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;-&nbsp;</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">каталог, необходимый для сборки Parser3 под Windows</span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 01.11.2013</font></td>
+</tr>
+</table>
+</body>
+</html>

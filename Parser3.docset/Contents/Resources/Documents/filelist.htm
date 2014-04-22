@@ -1,0 +1,80 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="file,file, Статические методы,list,dir *,ls *">
+    <title>list. Получение оглавления каталога</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>list. Получение оглавления каталога
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^file:list[путь]</b><span style="font-family:Times New Roman; font-size:12pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^file:list[путь;фильтр]</b><b>
+<br>
+^file:list[</b><b>путь</b><b>;</b><b>опции</b><b>]&nbsp;&nbsp;&nbsp;</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>[3.4.3]</i></b></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+можно задать <a href=hash.htm>хеш</a> </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>опций</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">:
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b></b><font face="Symbol" size="2" color="#000000">&#183;</font><b></b></span></td><td><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.</b><b>filter</b><b>[фильтр]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - строка с регулярным выражением или объект класса </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=regexclass.htm>regex</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b></b><font face="Symbol" size="2" color="#000000">&#183;</font><b></b></span></td><td><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.</b><b>stat</b><b>(true/false)</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>true</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - заполнить столбцы </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>size</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cdate</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>mdate</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> и </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>adate</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+&nbsp;<br>
+</b></span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td><span style="font-family:Monospace; font-size:10pt; color:#000000"><b></b></span></td><td></td></tr></table><span style="font-family:Monospace; font-size:10pt; color:#000000"></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Формирует таблицу (объект класса </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><u><a href=tableclass.htm>table</a></u></b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">) со столбцами </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>name</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>dir</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>size</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cdate</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>mdate</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> и </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>adate</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> (до версии <b><i>[3.4.3]</i></b> возвращался только столбце </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>name</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">), содержащим файлы и каталоги по указанному пути, имена которых удовлетворяют шаблону, если он задан. Для каждой записи, являющейся каталогом, в результирующей таблице значение в столбце </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>dir</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> будет иметь значение </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>1</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+
+<br>
+<i>Внимание: без указания опции </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><i>$.stat(true)</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i> значения столбцов  </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><i>size</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i>, </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><i>cdate</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i>, </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><i>mdate</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i> </i><i>и </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><i>adate</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i> в результирующей таблице будут пусты.</i>
+<br>
+
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>фильтр</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - строка с регулярным выражением (см. метод </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=stringmatch.htm>match</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> класса </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><u><a href=stringclass.htm>string</a></u></b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">)  или объект </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><a href=regexclass.htm>regex</a></b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i> [3.4.0]</i></b>. Без указания фильтра будут выведены все найденые по заданному пути файлы
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример
+<br>
+</b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$list[^file:list[/;\.zip^$]]
+<br>
+^list.</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><a href=tablemenu.htm>menu</a></b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>{
+<br>
+&nbsp;&nbsp;&nbsp;$list.name</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>&lt;br&nbsp;/&gt;
+<br>
+</b></span><span style="font-family:Times New Roman; font-size:10pt; color:#000000"><span style="font-family:Times New Roman; font-size:10pt; color:#0000FF"><b>}
+<br>
+</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Выведет имена всех архивных файлов с расширением имени </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>.zip</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, находящихся в корневом каталоге веб-сервера.
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 23.10.2013</font></td>
+</tr>
+</table>
+</body>
+</html>

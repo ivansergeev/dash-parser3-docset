@@ -1,0 +1,84 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="table,table, Методы,count,size">
+    <title>count. Количество строк в таблице</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>count. Количество строк в таблице
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^таблица.count[]
+<br>
+^таблица.count[columns|cells|rows]</b><b>&nbsp;&nbsp;&nbsp;</b><span style="font-family:Arial; font-size:10pt; color:#000000"><b><i>[3.4.2]</i></b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+При вызове без параметров или с параметром </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>rows</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> выдаёт количество строк в таблице (</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=intdoubleclasses.htm>int</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">).
+<br>
+При вызове с параметром </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>columns</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> выдаёт количество столбцов в именованной таблице (</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=intdoubleclasses.htm>int</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">).
+<br>
+При вызове с параметром </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cells</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> выдаёт количество столбцов в текущей строке таблицы (</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=intdoubleclasses.htm>int</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">).
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$goods[^table::</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><a href=tablecreate.htm>create</a></b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>{pos&nbsp;&nbsp;&nbsp;good&nbsp;&nbsp;&nbsp;price
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>1&nbsp;&nbsp;&nbsp;Монитор&nbsp;&nbsp;&nbsp;1000
+<br>
+2&nbsp;&nbsp;&nbsp;Системный&nbsp;блок&nbsp;&nbsp;&nbsp;1500
+<br>
+3&nbsp;&nbsp;&nbsp;Клавиатура&nbsp;&nbsp;&nbsp;150
+<br>
+4&nbsp;&nbsp;&nbsp;Колонки&nbsp;&nbsp;&nbsp;100
+<br>
+</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>}]
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Столбцов:&nbsp;</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>^goods.count[columns]</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Строк:&nbsp;</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>^goods.count[]</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Выведет:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Столбцов:&nbsp;3</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Строк:&nbsp;4
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+В выражениях числовое значение таблицы равно количеству строк, поэтому использовать метод </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>count</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> не требуется:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>^if($goods&nbsp;&gt;&nbsp;2){</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>больше</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>}</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 20.07.2012</font></td>
+</tr>
+</table>
+</body>
+</html>

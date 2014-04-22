@@ -1,0 +1,104 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="cookie,cookie, Запись,expires,domain,path,session">
+    <title>Запись</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Запись
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$cookie:имя[значение]&nbsp;&nbsp;&nbsp;
+<br>
+</b><b>
+<br>
+$cookie:имя[
+<br>
+&nbsp;&nbsp;&nbsp;$.value[значение]
+<br>
+&nbsp;&nbsp;&nbsp;...необязательные&nbsp;модификаторы...
+<br>
+]&nbsp;&nbsp;
+<br>
+</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Сохраняет значение в </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> с указанным именем. По умолчанию указанное значение сохраняется на 90 дней.
+<br>
+<i>Примечание: записанное значение </i><b><i>сразу</i></b><i> доступно для </i><i><a href=cookiestats.htm>чтения</a></i><i>, но это не дает гарантии, что оно будет принято и записано браузером  (например в случае если у посетителя </i><b><i>cookie</i></b><b><i>s</i></b><i> отключены или блокируются файрволом).</i>
+<br>
+
+<br>
+
+<br>
+Необязательные модификаторы:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.expires(число&nbsp;дней)</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - задает число дней (может быть дробным, 1.5=полтора дня), на которое сохраняется </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">;</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.expires[session]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - создает сеансовый </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> (</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> не будет сохранятся, а уничтожится с закрытием окна браузера);
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.expires[</b><b><a href=dateclass.htm>$date</a></b><b>]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - задает дату и время, до которой будет храниться </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, здесь </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$date</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - переменная типа </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=dateclass.htm>date</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">;
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.domain[имя&nbsp;домена]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - задает cookie в домен с указанным именем;
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.path[подраздел]</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - задает cookie только на определенный подраздел сайта.
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.httponly(true)</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - &nbsp;&nbsp;&nbsp;если указан ключ с </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=boolclass.htm>bool</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">-значением, то будет сформирован </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>http</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> заголовок в котором у </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> этот параметр указан без значения. Это может использоваться, например, для задания параметров <span style="font-family:FreeSetC,Arial; font-size:10pt; color:#0000FF"><u><a href="http://msdn.microsoft.com/en-us/library/ms533046.aspx">httponly</a></u></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> или secure.&nbsp;&nbsp;&nbsp;</span><span style="font-family:Arial; font-size:10pt; color:#000000"><b><i>[3.2.2]</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>
+<br>
+</b><b>Пример
+<br>
+</b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$cookie:user[</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Петя</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>]</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Создаст </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> с именем </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>user</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> и запишет в него значение </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Петя</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">. Созданный </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> будет храниться на диске пользователя 90 дней.
+<br>
+
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример
+<br>
+</b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$cookie:login_name[
+<br>
+&nbsp;&nbsp;&nbsp;$.value[</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>gues</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>t]</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>&nbsp;&nbsp;&nbsp;$.expires(14)
+<br>
+]
+<br>
+</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Создаст на две недели </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>cookie</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> с именем </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>login_name</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> и запишет в него значение </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>guest</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 26.06.2012</font></td>
+</tr>
+</table>
+</body>
+</html>

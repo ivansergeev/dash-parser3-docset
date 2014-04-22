@@ -1,0 +1,94 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="use,USE">
+    <title>use. Подключение модулей</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>use. Подключение модулей
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^use[файл]
+<br>
+^use[файл</b><b>;</b><b>опции]</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>&nbsp;&nbsp;&nbsp;</i></b><b><i>[3.4.3]</i></b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">
+<br>
+$.replace(true)
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Оператор позволяет использовать модуль из указанного файла. Если путь к файлу начинается с "</span><span style="font-family:Monospace; font-size:10pt; color:#000000">/</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">", то считается, что это путь от корня веб-пространства (а не от корня диска!). В любом другом случае Parser будет искать модуль сначала относительно файла, из которого происходит подключение модуля, а затем по путям, определенным в переменной </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$CLASS_PATH</b></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000"> </span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">в <a href=parserconfmethod.htm>Конфигурационном методе</a>. 
+<br>
+
+<br>
+<i>Внимание: до версии 3.4.1 не производился поиск подключаемых модулей относительно файла, в котором написаны </i><i>@USE/^use[], </i><i>а искался или относительно корня веб-пространства или по путям, определённым в </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$CLASS_PATH</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i>.</i>
+<br>
+
+<br>
+<i>Внимание: начиная с версии 3.4.3 в случае загрузки класса с именем, которое уже существует у ранее загруженного класса, выдаётся </i><i><a href=exceptions.htm>исключение</a></i><i>.</i><i> Отключить его можно с помощью </i><i>указания вновь </i><i>появившейся опции </i></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><i>$.replace(true)</i></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><i>.</i>
+<br>
+
+<br>
+Для подключения модулей также можно воспользоваться конструкцией:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>@USE
+<br>
+имя&nbsp;файла&nbsp;1
+<br>
+имя&nbsp;файла&nbsp;2
+<br>
+…</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+Разница между этими конструкциями в том, что использование </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>@USE</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> подключает файлы с модулями до начала выполнения кода, в то время как оператор use может быть вызван непосредственно из тела программы, например:
+<br>
+
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>^if(условие){
+<br>
+&nbsp;&nbsp;&nbsp;^use[модуль1]
+<br>
+}{
+<br>
+&nbsp;&nbsp;&nbsp;^use[модуль2]
+<br>
+}</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+<i>Замечание: </i><i>попытки подключить уже подключенные ранее модули не приводят к повторным считываниям файлов с диска.
+<br>
+</i>
+<br>
+Крайне рекомендуем использовать возможность сохранения результатов работы кода, используя оператор </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>use</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> для подключения необходимых модулей в коде оператора </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b><a href=opcache.htm>cache</a></b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 22.10.2013</font></td>
+</tr>
+</table>
+</body>
+</html>

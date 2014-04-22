@@ -1,0 +1,66 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="file,file, Статические методы,move,mv *,rename *">
+    <title>move. Перемещение или переименование файла</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>move. Перемещение или переименование файла
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^file:move[</b><b><a href=app1.htm>старое имя файла</a></b><b>;</b><b><a href=app1.htm>новое имя файла</a></b><b>]
+<br>
+^file:move[</b><b><a href=app1.htm>старое имя файла</a></b><b>;</b><b><a href=app1.htm>новое имя файла</a></b><b>;</b><b>опции]</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>&nbsp;&nbsp;&nbsp;</i></b><b><i>[3.4.3]</i></b></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Метод переименовывает или перемещает файл и каталог (для платформы Win32 объекты нельзя перемещать через границу диска). Новый каталог создается с правами </span><span style="font-family:Monospace; font-size:10pt; color:#000000">775</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">. Каталог старого файла удаляется, если после выполнения метода он остается пустым.
+<br>
+
+<br>
+Можно задать <a href=hash.htm>хеш</a> </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>опций</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.</b><b>keep-empty-dirs</b><b>(true)&nbsp;-&nbsp;</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">не удалять пустые каталоги, если таковые остались после перемещения файла.</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+<i>Внимание: необходимо крайне осторожно относиться к возможности записи в веб-пространстве, поскольку возможностью что-нибудь куда-нибудь записать нередко пользуются современные геростраты.
+<br>
+</i>
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример
+<br>
+</b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>^file:move[</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>/path/file1</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>;</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>/file1</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>]</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Переместит файл </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>file1</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> в корень веб-пространства.
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 22.10.2013</font></td>
+</tr>
+</table>
+</body>
+</html>

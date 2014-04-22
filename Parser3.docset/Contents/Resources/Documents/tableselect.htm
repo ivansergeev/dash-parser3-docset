@@ -1,0 +1,94 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="table,table, Методы,select,filter *,query *">
+    <title>select. Отбор записей</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>select. Отбор записей
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>^таблица.select(критерий_отбора)
+<br>
+^таблица.select(критерий_отбора)</b><b>[опции]</b><b>&nbsp;&nbsp;&nbsp;</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><b><i>[3.4.1]</i></b></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+Метод последовательно перебирает все строки таблицы, применяя к ним выражение </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>критерий_отбора</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">, те строки, которые подпали под заданный </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>критерий</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> (логическое выражение было истинно), помещаются в результат, которым является таблица с такой же структурой, что и входная.
+<br>
+
+<br>
+можно задать <a href=hash.htm>хеш</a> </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>опций</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">:</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"><table border="0" cellpadding="1"><tr><td align="left" valign="top" width="240">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.offset(количество&nbsp;строк)</b>
+<br>
+</span></td><td align="left" valign="top" width="491">
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">для поиска первой копируемой строки пропустить указанное <span style="font-family:Monospace; font-size:10pt; color:#000000"><b>количество&nbsp;строк</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> таблицы.
+<br>
+при указании отрицательного значения поиск первой копируемой строки идёт от конца таблицы (-1 - указывает на последнюю строку)</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>&nbsp;&nbsp;&nbsp;</b></span></span><span style="font-family:Arial; font-size:10pt; color:#000000"><b><i>[3.4.2]</i></b></span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="240">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.limit(максимум)</b>
+<br>
+</span></td><td align="left" valign="top" width="491">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>максимум</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> строк, которые можно обработать;</span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr><tr><td align="left" valign="top" width="240">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.</b><b>reverse</b><b>(true</b><b>/</b><b>false</b><b>)</b>
+<br>
+</span></td><td align="left" valign="top" width="491">
+<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>true</b><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">=в обратном порядке.</span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr></table>
+<br>
+
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Пример</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>$men[^table::</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><a href=tablecreate.htm>create</a></b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>{name&nbsp;&nbsp;&nbsp;age
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Serge&nbsp;&nbsp;&nbsp;26
+<br>
+Alex&nbsp;&nbsp;&nbsp;20
+<br>
+Mishka&nbsp;&nbsp;&nbsp;29</b><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+}]</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>
+<br>
+$thoseAbove20[^men.select($men.</b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b><a href=tablefields.htm>age</a></b></span></span><span style="font-family:Monospace; font-size:10pt; color:#000000"><span style="font-family:Monospace; font-size:10pt; color:#0000FF"><b>&gt;20)]</b></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+В </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$thoseAbove20</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> попадут строки с </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Serge</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> и </span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>Mishka</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b></span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 16.06.2012</font></td>
+</tr>
+</table>
+</body>
+</html>

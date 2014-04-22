@@ -1,0 +1,104 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="">
+    <title>Сборка под *nix</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:FreeSetC,Arial; font-size:12pt; color:#000000"><b>Сборка под *nix
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Для сборки Parser3 под *nix необходимо использовать специально созданный скрипт <span style="font-family:Monospace; font-size:10pt; color:#000000">buildall</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">.
+<br>
+
+<br>
+Т.е. в общем случае процесс скачивания исходников и сборки Parser3 будет выглядеть примерно так:</span><span style="font-family:Monospace; font-size:10pt; color:#000000">
+<br>
+
+<br>
+cd&nbsp;~
+<br>
+mkdir&nbsp;parser3project
+<br>
+cd&nbsp;parser3project
+<br>
+wget&nbsp;http://www.parser.ru/off-line/download/src/parser-3.4.3.tar.gz
+<br>
+tar&nbsp;-xzf&nbsp;parser-3.4.3.tar.gz
+<br>
+mv&nbsp;parser-3.4.3&nbsp;parser3
+<br>
+cd&nbsp;parser3
+<br>
+./buildall</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+
+<br>
+Скрипт сборки поддерживает следующие параметры:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">--disable-safe-mode</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - не проверять принадлежность открываемых парсером файлов текущему пользователю.
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">--without-xml</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - собрать Parser3 без поддержки XML.
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">--with-mailreceive</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - при запуске Parser3 с параметром </span><span style="font-family:Monospace; font-size:10pt; color:#000000">-m</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> переданное на stdin письмо доступно в $mail:receive
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">--with-apache</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - собирать модуль apache (DSO, поддерживаются apache 1.X и 2.X).
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">--strip</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> - удалить отладочную информацию.
+<br>
+
+<br>
+
+<br>
+Сборка SQL драйвера (на примере MySQL) будет выглядеть примерно так:
+<br>
+
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000">cd&nbsp;~/parser3project
+<br>
+mkdir&nbsp;sql
+<br>
+cd&nbsp;sql
+<br>
+wget&nbsp;http://www.parser.ru/off-line/download/src/parser3mysql-10.5.tar.gz
+<br>
+tar&nbsp;-xzf&nbsp;parser3mysql-10.5.tar.gz
+<br>
+cd&nbsp;parser3mysql-10.5
+<br>
+./configure
+<br>
+make
+<br>
+</span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 01.11.2013</font></td>
+</tr>
+</table>
+</body>
+</html>

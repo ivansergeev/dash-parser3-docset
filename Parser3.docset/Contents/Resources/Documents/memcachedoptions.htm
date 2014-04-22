@@ -1,0 +1,66 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1251">
+    <meta name="keywords" content="">
+    <title>Параметры соединения</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="black">
+
+
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>
+      
+<span style="font-family:Arial; font-size:12pt; color:#000000"><b>Параметры соединения
+<br>
+</b></span>
+    </td>
+  </tr>
+  <tr><td bgcolor="#99D228" height="3"></td></tr>
+</table>
+<br>
+
+
+
+<span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Параметры соединения с серверами memcached могут быть заданы как в виде <b>строки</b> так и в виде <b>хеша</b>.
+<br>
+
+<br>
+Если параметры соединения заданы в виде строки, то они передаются функции <b>memcached_servers_parse</b> библиотеки libmemcached «как есть». Данная функция ожидает строку соединения в следующем формате:<span style="font-family:Monospace; font-size:10pt; color:#000000"><b>
+<br>
+</b><b>server1:port1,server2,server3,server4:port4
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">Чуть подробнее прочитать о её параметрах можно в <span style="font-family:FreeSetC,Arial; font-size:10pt; color:#0000FF"><u><a href="http://docs.libmemcached.org/memcached_servers_parse.html" target="_blank">документации</a></u></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000"> библиотеки libmemcached.
+<br>
+
+<br>
+Если параметры соединения указаны в виде хеша, то они обрабатываются более новой и универсальной функцией <b>memcached</b> (которая, тем не менее, может отсутствовать у установленной в вашей системе библиотеки). Ключами хеша с параметрами соединения могут быть любые опции, доступные у установленной в вашей системе библиотеки <b>libmemcached</b> (см. <span style="font-family:FreeSetC,Arial; font-size:10pt; color:#0000FF"><u><a href="http://docs.libmemcached.org/libmemcached_configuration.html#memcached" target="_blank">документацию</a></u></span></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">). Имена опций нужно писать без префикса «--».
+<br>
+
+<br>
+Список наиболее востребованных опций:
+<br>
+</span><span style="font-family:Monospace; font-size:10pt; color:#000000"><b>$.server[&lt;servername&gt;:&lt;port&gt;]
+<br>
+$.binary-protocol(true)
+<br>
+$.connect-timeout(N)
+<br>
+$.tcp-keepalive(true)
+<br>
+</b></span><span style="font-family:FreeSetC,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span><br>
+
+
+<hr size=1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="top">
+<td><font size="1">Copyright &copy; 1997&#150;2013 Art. Lebedev Studio | <a href="http://www.artlebedev.ru/" target="_blank">http://www.artlebedev.ru</a></font></td>
+<td align="right"><font size="1">Дата обновления: 15.09.2012</font></td>
+</tr>
+</table>
+</body>
+</html>
