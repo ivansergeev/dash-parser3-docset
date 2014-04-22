@@ -18,9 +18,9 @@ Dash (http://kapeli.com/dash), Parser 3.4.3 (http://www.parser.ru/en/, http://pa
 
 ##Authors
 Documentation authors: 
-Copyright (c) Alexey Sorokin (lex_sorokin@mail.ru)
-Copyright (c) Vladimir Murov (lir_vl@mail.ru)
-Copyright (c) Alexander Petrossian (PAF) (http://paf.design.ru/)
+  - Copyright (c) Alexey Sorokin (lex_sorokin@mail.ru)
+  - Copyright (c) Vladimir Murov (lir_vl@mail.ru)
+  - Copyright (c) Alexander Petrossian (PAF) (http://paf.design.ru/)
 
 Docsets author: 
-Copyright (c) Ivan Sergeev (ivansergeev@gmail.com)
+  - Copyright (c) Ivan Sergeev (ivansergeev@gmail.com)
